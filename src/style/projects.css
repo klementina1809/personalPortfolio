@@ -1,0 +1,25 @@
+/* project file */
+
+.project {
+	margin-block: 1em;
+}
+.project img {
+	width: 300px;
+}
+.project p.description {
+	margin: 0px auto;
+}
+
+/* projects file */
+.center {
+	text-align: center;
+	margin: auto;
+}
+hr {
+  display: block;
+  margin-block: 2em;
+}
+
+.all-projects {
+margin-top: 2em;
+}

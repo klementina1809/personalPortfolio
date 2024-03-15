@@ -1,24 +1,22 @@
-import { useState, useEffect } from 'react'
-import { Row, Col, Container } from 'react-grid-system'
-
-import Project from './components/Project'
-import Projects from './components/Projects'
-import Header from './components/header'
+import { useState, useEffect } from "react";
+import { Row, Col, Container } from "react-grid-system";
 
 
-import './App.css'
+import Projects from "./components/Projects";
+import Header from "./components/Header";
+
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <Container>
-        <Header/>
-        <Projects/>
-      </Container>
-    </>
-  )
+
+	return (
+		<Container>
+			<Header />
+			<hr />
+			<Projects />
+		</Container>
+	);
 }
 
-export default App
+export default App;
