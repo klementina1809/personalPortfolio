@@ -1,35 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { Row, Col } from "react-grid-system";
 import Project from "./Project";
+import data from "../data/allProjects";
 
 function Projects() {
+	const [projects, setProjects] = useState(data.projects);
+
 	return (
 		<>
 			<Row>
 				<h2 className="center">Projects</h2>
 			</Row>
-			<Row className="all-projects">
-				<Col sm={4}>
-					<Project />
-				</Col>
-				<Col sm={4}>
-					<Project />
-				</Col>
-				<Col sm={4}>
-					<Project />
-				</Col>
-			</Row>
 			<Row>
-				<Col sm={4}>
-					<Project />
-				</Col>
-				<Col sm={4}>
-					<Project />
-				</Col>
-				<Col sm={4}>
-					<Project />
-				</Col>
+				{projects.reverse().map((project) => {
+					return (
+						<Col sm={4} key={project.id}>
+							<Project data={project}  />
+						</Col>
+					);
+				})}
 			</Row>
 		</>
 	);

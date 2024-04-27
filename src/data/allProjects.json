@@ -1,0 +1,131 @@
+{
+	"projects": [
+		{
+			"id": 1,
+			"title": "Kinomonster",
+			"description": "Sito web di film costruito interamente con HTML e CSS, simile a un servizio di streaming per film e serie TV.",
+			"img": "./photo/",
+			"linkWeb": "...............",
+			"linkGit": "https://github.com/klementina1809/movies-website",
+			"date": "02.08.23"
+		},
+		{
+			"id": 2,
+			"title": "Gestionale web",
+			"description": ".............",
+			"img": "./photo/",
+			"linkWeb": "...............",
+			"linkGit": "https://github.com/klementina1809/gestionale-web",
+			"date": "09.09.23"
+		},
+		{
+			"id": 3,
+			"title": "Calcolatrice",
+			"description": "Calcolatrice semplice con opzione di salvataggio dei risultati.",
+			"img": "./photo/",
+			"linkWeb": "https://klementina1809.github.io/calcolatrice/",
+			"linkGit": "https://github.com/klementina1809/calcolatrice",
+			"date": "03.01.24"
+		},
+		{
+			"id": 4,
+			"title": "ToDo List",
+			"description": "App per la gestione delle attività: aggiungere, modificare e eliminare compiti, organizzare in categorie personalizzate.",
+			"img": "./photo/",
+			"linkWeb": "https://klementina1809.github.io/project/",
+			"linkGit": "https://github.com/klementina1809/project",
+			"date": "15.01.24"
+		},
+		{
+			"id": 5,
+			"title": "Weather",
+			"description": "L'app meteo, dove si puo selezionare la città e ottenere informazioni dettagliate sulla situazione attuale e il previsionale per le prossime 48 ore o settimana.",
+			"img": "./photo/",
+			"linkWeb": "https://klementina1809.github.io/weatherStation/",
+			"linkGit": "https://github.com/klementina1809/weatherStation",
+			"date": "06.03.24"
+		},
+		{
+			"id": 6,
+			"title": "Pass-generator",
+			"description": "Generatore di password: crea password personalizzate di diverse lunghezze e complessità, copiale direttamente nella clipboard per un facile utilizzo.",
+			"img": "./photo/",
+			"linkWeb": "https://klementina1809.github.io/pass-generator/",
+			"linkGit": "https://github.com/klementina1809/pass-generator",
+			"date": "14.03.24"
+		},
+		{
+			"id": 7,
+			"title": "Square",
+			"description": "Applicazione che permette di modificare il raggio di un quadrato tramite l'utilizzo di campi di input.",
+			"img": "./photo/",
+			"linkWeb": "https://klementina1809.github.io/square/",
+			"linkGit": "https://github.com/klementina1809/square",
+			"date": "15.03.24"
+		},
+		{
+			"id": 8,
+			"title": "Calendar",
+			"description": "Calendario basato sui componenti settimanali, mensili e annuali, costruito utilizzando il primo giorno della settimana selezionato tramite il menu a discesa dell'anno.",
+			"img": "./photo/",
+			"linkWeb": "https://klementina1809.github.io/Calendar/",
+			"linkGit": "https://github.com/klementina1809/Calendar",
+			"date": "18.03.24"
+		},
+		{
+			"id": 9,
+			"title": "Slot Machine",
+			"description": "Slot machine con opzioni di scommessa e diverse probabilità di vincita per ciascun elemento.",
+			"img": "./photo/",
+			"linkWeb": "https://klementina1809.github.io/slotMachine/",
+			"linkGit": "https://github.com/klementina1809/slotMachine",
+			"date": "29.03.24"
+		},
+		{
+			"id": 10,
+			"title": "Vidly",
+			"description": "Applicazione tabellare per film. Gli utenti possono gestire una collezione di film, aggiungendo, salvando o eliminando titoli. Include anche possibilita di verifica dei dati durante la registrazione.",
+			"img": "./photo/",
+			"linkWeb": "https://klementina1809.github.io/mosh/",
+			"linkGit": "https://github.com/klementina1809/mosh",
+			"date": "31.03.24"
+		},
+		{
+			"id": 11,
+			"title": "Password Game",
+			"description": "Gioco in generatore di password infinito con varie sfide.",
+			"img": "./photo/",
+			"linkWeb": "https://klementina1809.github.io/passwordGame/",
+			"linkGit": "https://github.com/klementina1809/passwordGame",
+			"date": "12.04.24"
+		},
+		{
+			"id": 12,
+			"title": "Gamers Counter",
+			"description": "Applicazione di conteggio del saldo dei punti in vari giochi con fiches.",
+			"img": "./photo/",
+			"linkWeb": "https://klementina1809.github.io/counter/",
+			"linkGit": "https://github.com/klementina1809/counter",
+			"date": "14.04.24"
+		},
+		{
+			"id": 13,
+			"title": "Black Jack",
+			"description": "Simulatore di Blackjack contro il dealer con opzione di scommessa.",
+			"img": "./photo/",
+			"linkWeb": "https://klementina1809.github.io/black-jack/",
+			"linkGit": "https://github.com/klementina1809/black-jack",
+			"date": "18.04.24"
+		},
+
+		{
+			"id": 14,
+			"title": "Personal Portfolio",
+			"description": ".............",
+			"img": "./photo/",
+			"linkWeb": "https://klementina1809.github.io/personalPortfolio/",
+			"linkGit": "https://github.com/klementina1809/personalPortfolio",
+			"date": ".24"
+		}
+	]
+}
