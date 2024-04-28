@@ -3,7 +3,7 @@ import React from "react";
 function Project({ data }) {
 	return (
 		<div className="project">
-			<h3>{data.title}</h3>
+			{/* <h3>{data.title}</h3> */}
 			<img src={data.img} alt="" />
 			<span className="date">{data.date}</span>
 			<div className="info-container">
