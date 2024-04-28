@@ -4,31 +4,31 @@
 	flex-direction: column;
 	align-content: center;
 	margin-bottom: 20px;
-  margin-block: 1em;
+	margin-block: 1em;
 	gap: 10px;
 }
 .project h3 {
 	margin-top: 0;
 	margin-bottom: 18px;
-  font-size: 24px;
+	font-size: 24px;
 }
 
 .project img {
 	margin: 0 auto 10px;
 	border-radius: 8px;
-  width: 300px;
+	width: 300px;
 }
 .project .info-container {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-  height: 186px;
+	height: 186px;
 	/* flex: 1; */
 }
 .project p.description {
 	margin-bottom: 20px;
-  /* margin: 0px auto; */
-  margin: auto;
+	/* margin: 0px auto; */
+	margin: auto;
 	/* flex: 1; */
 }
 .project span.date {

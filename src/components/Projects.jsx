@@ -9,9 +9,11 @@ function Projects() {
 
 	return (
 		<>
+		<hr />
 			<Row>
-				<h2 className="center">Projects</h2>
+				<h2 className="center">PROJECTS</h2>
 			</Row>
+			<hr />
 			<Row>
 				{projects
 					.sort((a, b) => b.id - a.id)

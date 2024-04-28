@@ -4,14 +4,14 @@
 	margin: auto;
 }
 hr {
-  display: block;
-  margin-block: 2em;
+	display: block;
+	margin-block: 2em;
 }
 
 .all-projects {
-margin-top: 2em;
+	margin-top: 2em;
 }
 
 h2 {
-  padding-bottom: 20px;
+	font-size: 36px;
 }

@@ -13,7 +13,7 @@ function App() {
 	return (
 		<Container>
 			<Header />
-			<hr />
+			
 			<Projects />
 		</Container>
 	);

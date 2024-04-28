@@ -7,7 +7,7 @@ function Header() {
 		<Row>
 			<Col sm={4}>
 				<div className="main-photo">
-					<img src="src/assets/photo/photo.jpg" alt="" />
+					<img src="./photo/photo.jpg" alt="" />
 				</div>
 			</Col>
 			<Col sm={8}>
