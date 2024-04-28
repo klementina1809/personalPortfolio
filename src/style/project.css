@@ -1,0 +1,48 @@
+.project {
+	height: 520px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	margin-bottom: 20px;
+  margin-block: 1em;
+	gap: 10px;
+}
+.project h3 {
+	margin-top: 0;
+  font-size: 24px;
+}
+
+.project img {
+	margin: 0 auto 10px;
+	border-radius: 8px;
+  width: 300px;
+}
+.project .info-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+  height: 186px;
+	/* flex: 1; */
+}
+.project p.description {
+	margin-bottom: 20px;
+  /* margin: 0px auto; */
+  margin: auto;
+	/* flex: 1; */
+}
+.project span.date {
+	display: inline-block;
+	color: rgb(137, 137, 137);
+	font-size: 0.9rem;
+}
+.project .button-container {
+	margin-top: auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+.project .button-container a {
+	color: white;
+	background-color: blueviolet;
+	padding: 8px 12px;
+	border-radius: 8px;
+}

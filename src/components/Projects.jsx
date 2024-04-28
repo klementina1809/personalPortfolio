@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { Row, Col } from "react-grid-system";
 import Project from "./Project";
@@ -13,13 +13,15 @@ function Projects() {
 				<h2 className="center">Projects</h2>
 			</Row>
 			<Row>
-				{projects.reverse().map((project) => {
-					return (
-						<Col sm={4} key={project.id}>
-							<Project data={project}  />
-						</Col>
-					);
-				})}
+				{projects
+					.sort((a, b) => b.id - a.id)
+					.map((project) => {
+						return (
+							<Col sm={4} key={project.id}>
+								<Project data={project} />
+							</Col>
+						);
+					})}
 			</Row>
 		</>
 	);
