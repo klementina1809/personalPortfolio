@@ -7,11 +7,9 @@ hr {
 	display: block;
 	margin-block: 2em;
 }
-
-.all-projects {
-	margin-top: 2em;
-}
-
 h2 {
 	font-size: 36px;
+}
+.projects-container {
+	margin-top: 40px;
 }

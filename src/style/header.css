@@ -1,4 +1,10 @@
 .main-photo img {
-	width: 250px;
+	max-width: 220px;
 	border-radius: 50%;
+}
+.profile-description {
+	text-align: left;
+}
+h1 {
+	margin: 20px 0px;
 }

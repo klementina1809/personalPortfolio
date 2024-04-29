@@ -9,12 +9,12 @@ function Projects() {
 
 	return (
 		<>
-		<hr />
+			<hr />
 			<Row>
 				<h2 className="center">PROJECTS</h2>
 			</Row>
 			<hr />
-			<Row>
+			<Row className='projects-container'>
 				{projects
 					.sort((a, b) => b.id - a.id)
 					.map((project) => {

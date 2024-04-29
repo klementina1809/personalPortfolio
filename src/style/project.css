@@ -1,11 +1,12 @@
 .project {
-	height: 520px;
+	max-height: 520px;
 	display: flex;
 	flex-direction: column;
-	align-content: center;
-	margin-bottom: 20px;
-	margin-block: 1em;
+	margin-bottom: 40px;
+	padding: 40px;
 	gap: 10px;
+	background-color: #f5e8dc0a;
+	border-radius: 8px;
 }
 .project h3 {
 	margin-top: 0;
@@ -16,7 +17,7 @@
 .project img {
 	margin: 0 auto 10px;
 	border-radius: 8px;
-	width: 300px;
+	width: 100%;
 }
 .project .info-container {
 	display: flex;
@@ -43,7 +44,7 @@
 }
 .project .button-container a {
 	color: white;
-	background-color: blueviolet;
-	padding: 8px 12px;
+	background-color: rgb(80, 71, 89);
+	padding: 8px 44px;
 	border-radius: 8px;
 }

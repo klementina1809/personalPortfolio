@@ -1,6 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import { Row, Col, Container } from "react-grid-system";
+import { Row, Col } from "react-grid-system";
 
 function Header() {
 	return (
@@ -11,8 +10,8 @@ function Header() {
 				</div>
 			</Col>
 			<Col sm={8}>
-				<div className="description">
-				<h1>Albina Khomenko</h1>
+				<div className="profile-description">
+					<h1>Albina Khomenko</h1>
 					<p>
 						Lorem, ipsum dolor sit amet consectetur adipisicing
 						elit. Suscipit facilis obcaecati autem voluptatum,
