@@ -1,6 +1,7 @@
 .main-photo img {
 	max-width: 220px;
 	border-radius: 50%;
+	box-shadow: 7px 7px 7px #00000030;
 }
 .profile-description {
 	text-align: left;
