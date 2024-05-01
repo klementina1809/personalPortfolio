@@ -33,6 +33,7 @@
 	/* margin: 0px auto; */
 	margin: auto;
 	/* flex: 1; */
+	font-size: 18px;
 }
 .project span.date {
 	display: inline-block;

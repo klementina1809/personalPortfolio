@@ -57,7 +57,7 @@
 		{
 			"id": 7,
 			"title": "Square",
-			"description": "Applicazione che permette di modificare il boorder radius di un quadrato tramite l'utilizzo di campi di input.",
+			"description": "Applicazione che permette di modificare il border radius di un quadrato tramite l'utilizzo di campi di input.",
 			"img": "./photo/square.jpg",
 			"linkWeb": "https://klementina1809.github.io/square/",
 			"linkGit": "https://github.com/klementina1809/square",

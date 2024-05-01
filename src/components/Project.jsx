@@ -9,8 +9,8 @@ function Project({ data }) {
 			<div className="info-container">
 				<p className="description">{data.description} </p>
 				<div className="button-container">
-					<a href={data.linkWeb}>Demo</a>
-					<a href={data.linkGit}>GitHub</a>
+					<a href={data.linkWeb} target="_blank">Demo</a>
+					<a href={data.linkGit} target="_blank">GitHub</a>
 				</div>
 			</div>
 		</div>
