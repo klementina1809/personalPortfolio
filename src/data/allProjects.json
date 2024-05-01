@@ -3,7 +3,7 @@
 		{
 			"id": 1,
 			"title": "Kinomonster",
-			"description": "Sito web dei film costruito interamente con HTML e CSS, simile a un servizio di streaming per film e serie TV.",
+			"description": "Sito web per lo streaming di film. Il progetto è stato realizzato con HTML, CSS e JavaScript.",
 			"img": "./photo/kinomonster.jpg",
 			"linkWeb": "https://klementina1809.github.io/movies-website/",
 			"linkGit": "https://github.com/klementina1809/movies-website",
@@ -12,7 +12,7 @@
 		{
 			"id": 2,
 			"title": "Gestionale web",
-			"description": ".............",
+			"description": "Demo di un gestionale web per la gestione di clienti. Il progetto è stato realizzato con HTML e CSS.",
 			"img": "./photo/gestionale-web.jpg",
 			"linkWeb": "https://klementina1809.github.io/gestionale-web/",
 			"linkGit": "https://github.com/klementina1809/gestionale-web",
@@ -21,7 +21,7 @@
 		{
 			"id": 3,
 			"title": "Calcolatrice",
-			"description": "Calcolatrice semplice con opzione di salvataggio dei risultati.",
+			"description": "Applicazione di calcolatrice che permette di eseguire operazioni matematiche di base come addizione, sottrazione, moltiplicazione e divisione.",
 			"img": "./photo/calcolatrice.jpg",
 			"linkWeb": "https://klementina1809.github.io/calcolatrice/",
 			"linkGit": "https://github.com/klementina1809/calcolatrice",
@@ -30,7 +30,7 @@
 		{
 			"id": 4,
 			"title": "ToDo List",
-			"description": "App per la gestione delle attività: aggiungere, modificare e eliminare compiti, organizzare in categorie personalizzate.",
+			"description": "Applicazione di gestione delle attività che permette di creare, modificare ed eliminare attività da fare.",
 			"img": "./photo/To Do List.jpg",
 			"linkWeb": "https://klementina1809.github.io/project/",
 			"linkGit": "https://github.com/klementina1809/project",
@@ -39,7 +39,7 @@
 		{
 			"id": 5,
 			"title": "Weather",
-			"description": "Il meteo che permette selezionare città e visualizzare dettagli sulla situazione attuale e previsioni per le prossime 48 ore o settimana.",
+			"description": "Stazione meteorologica che mostra le previsioni meteo attuali e future per una località specifica.",
 			"img": "./photo/Weather.jpg",
 			"linkWeb": "https://klementina1809.github.io/weatherStation/",
 			"linkGit": "https://github.com/klementina1809/weatherStation",
@@ -48,7 +48,7 @@
 		{
 			"id": 6,
 			"title": "Pass-generator",
-			"description": "Generatore di password: crea password personalizzate di diverse lunghezze e complessità, copiale direttamente nella clipboard per un facile utilizzo.",
+			"description": "Generatore di password che permette di creare password personalizzate con lunghezza e caratteri specifici.",
 			"img": "./photo/pass-generator.jpg",
 			"linkWeb": "https://klementina1809.github.io/pass-generator/",
 			"linkGit": "https://github.com/klementina1809/pass-generator",
@@ -57,7 +57,7 @@
 		{
 			"id": 7,
 			"title": "Square",
-			"description": "Applicazione che permette di modificare il raggio di un quadrato tramite l'utilizzo di campi di input.",
+			"description": "Applicazione che permette di modificare il boorder radius di un quadrato tramite l'utilizzo di campi di input.",
 			"img": "./photo/square.jpg",
 			"linkWeb": "https://klementina1809.github.io/square/",
 			"linkGit": "https://github.com/klementina1809/square",
@@ -66,7 +66,7 @@
 		{
 			"id": 8,
 			"title": "Calendar",
-			"description": "Calendario che utilizza il primo giorno della settimana selezionato tramite un menu a discesa, con componenti settimanali, mensili e annuali.",
+			"description": "Calendario che utilizza il primo giorno dell'anno selezionato per generare un calendario mensile con i giorni della settimana corrispondenti.",
 			"img": "./photo/calendar.jpg",
 			"linkWeb": "https://klementina1809.github.io/Calendar/",
 			"linkGit": "https://github.com/klementina1809/Calendar",
@@ -75,7 +75,7 @@
 		{
 			"id": 9,
 			"title": "Slot Machine",
-			"description": "Slot machine con opzioni di scommessa e diverse probabilità di vincita per ciascun elemento.",
+			"description": "Simulatore di slot machine con funzionalità di gioco e vincita di premi in base alla combinazione di simboli ottenuti e al valore della scommessa.",
 			"img": "./photo/slot.jpg",
 			"linkWeb": "https://klementina1809.github.io/slotMachine/",
 			"linkGit": "https://github.com/klementina1809/slotMachine",
@@ -84,7 +84,7 @@
 		{
 			"id": 10,
 			"title": "Vidly",
-			"description": "Un'applicazione per gestire una collezione di film, permette agli utenti di aggiungere, salvare o eliminare titoli.",
+			"description": "Un'applicazione per gestire una collezione di film. Permette all'utente di aggiungere, salvare o eliminare titoli.",
 			"img": "./photo/vidly.jpg",
 			"linkWeb": "https://klementina1809.github.io/mosh/",
 			"linkGit": "https://github.com/klementina1809/mosh",
@@ -93,7 +93,7 @@
 		{
 			"id": 11,
 			"title": "Password Game",
-			"description": "Gioco in generatore di password infinito con varie sfide.",
+			"description": "Gioco di password che permette di indovinare la parola segreta in base a regole e suggerimenti forniti dall'applicazione stessa.",
 			"img": "./photo/password-game.jpg",
 			"linkWeb": "https://klementina1809.github.io/passwordGame/",
 			"linkGit": "https://github.com/klementina1809/passwordGame",
@@ -102,7 +102,7 @@
 		{
 			"id": 12,
 			"title": "Gamers Counter",
-			"description": "Applicazione di conteggio del saldo dei punti in vari giochi con fiches.",
+			"description": "Applicazione di conteggio per giocatori di giochi da tavolo, con opzioni di aggiunta e sottrazione di punti e reset del punteggio.",
 			"img": "./photo/counter.jpg",
 			"linkWeb": "https://klementina1809.github.io/counter/",
 			"linkGit": "https://github.com/klementina1809/counter",
@@ -111,17 +111,16 @@
 		{
 			"id": 13,
 			"title": "Black Jack",
-			"description": "Simulatore di Blackjack contro il dealer con opzione di scommessa.",
+			"description": "Simulatore di Blackjack con regole e meccaniche di gioco realistici.",
 			"img": "./photo/black-jack.jpg",
 			"linkWeb": "https://klementina1809.github.io/black-jack/",
 			"linkGit": "https://github.com/klementina1809/black-jack",
 			"date": "18.04.24"
 		},
-
 		{
 			"id": 14,
 			"title": "Personal Portfolio",
-			"description": ".............",
+			"description": "Portfolio personale con informazioni su di me, i miei progetti e i miei contatti.",
 			"img": "./photo/portfolio.jpg",
 			"linkWeb": "https://klementina1809.github.io/personalPortfolio/",
 			"linkGit": "https://github.com/klementina1809/personalPortfolio",
