@@ -10,7 +10,7 @@ function Projects() {
 	return (
 		<>
 			<hr />
-			<Row style={{ marginTop: 40 }}>
+			<Row>
 				<h2 className="center" style={{ fontWeight: 700 }}>
 					PROJECTS
 				</h2>

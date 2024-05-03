@@ -5,8 +5,8 @@ function Project({ data }) {
 		<div className="project">
 			{/* <h3>{data.title}</h3> */}
 			<img src={data.img} alt="" />
-			<span className="date">{data.date}</span>
 			<div className="info-container">
+			<span className="date">{data.date}</span>
 				<div className="description-container">
 					<p className="description">{data.description} </p>
 				</div>

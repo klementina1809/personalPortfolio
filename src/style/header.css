@@ -1,49 +1,64 @@
-@import url("https://fonts.googleapis.com/css?family=Bad+Script");
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,600");
+@import url("https://fonts.googleapis.com/css?family=Merienda:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,600italic,700");
 
 .main-photo img {
 	max-width: 220px;
 	border-radius: 50%;
-	box-shadow: 7px 7px 7px #00000030;
+	box-shadow: 5px 3px 9px 0px #00000030;
+	margin-top: 20px;
 }
-.profile-description {
-	text-align: left;
+.header a {
+	font-family: "Merienda";
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: var(--secondary-color);
 }
-h1 {
-	margin: 20px 0px;
+.header a:hover {
+	color: var(--text-secondary-color);
+	transition: all 0.2s ease;
+	filter: drop-shadow(1px 1px 1px #00000030);
 }
 
-hr {
-	border-color: #6f6f6f;
+h1 {
+	margin: 20px 0px;
+	font-size: 2.2em;
+	line-height: 1.1;
 }
 
 .justified-center {
 	justify-content: center !important;
+	align-items: center !important;
 }
 
 .title {
-	font-family: "Bad Script";
+	font-family: "Merienda";
 	font-size: 2.5em;
 }
 
-* {
-	font-family: "Poppins";
+.profile-description, 
+.profile-github {
+	margin-top: 20px;
+	text-align: left;
 }
 
-.profile-description {
-	margin-top: 40px;
+.profile-github img{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	filter: hue-rotate(100deg) drop-shadow(1px 1px 1px #00000030);
 }
 
 .profile-description p {
-	margin-top: 0px;
 	margin-bottom: 40px;
 	text-align: justify;
 	margin-left: 35px;
+	margin-top: 12px;
 }
 
 .label {
-	font-family: "Bad Script";
-	font-size: 26px;
-	color: #6f6f6f;
+	font-family: "Merienda";
+	font-size: 1.5rem;
+	color: var(--text-secondary-color);
 	margin-left: 35px;
+	margin-bottom: 20px;
 }

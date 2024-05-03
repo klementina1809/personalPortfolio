@@ -1,15 +1,13 @@
-/* projects file */
 .center {
 	text-align: center;
 	margin: auto;
 }
-hr {
-	display: block;
-	margin-block: 2em;
-}
+
 h2 {
-	font-size: 36px;
+	font-size: 1.8rem;
+	color: var(--text-secondary-color);
 }
+
 .projects-container {
 	margin-top: 40px;
 }

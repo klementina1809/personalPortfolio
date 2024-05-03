@@ -9,11 +9,24 @@ function Header() {
 					<h1 className="title">Albina Khomenko</h1>
 				</Col>
 			</Row>
-			<Row className="justified-center">
-				<Col sm={4}>
+			<Row className="header justified-center">
+				<Col sm={2}>
+					<a
+						target="_blank"
+						href="https://www.linkedin.com/in/albina-khomenko-573823210/"
+					>
+						LinedIn
+					</a>
+				</Col>
+				<Col sm={3}>
 					<div className="main-photo">
-						<img src="./photo/photo.jpg" alt="" />
+						<img src="./photo/photo.png" alt="" />
 					</div>
+				</Col>
+				<Col sm={2}>
+					<a target="_blank" href="https://github.com/klementina1809">
+						GitHub
+					</a>
 				</Col>
 			</Row>
 
@@ -22,29 +35,27 @@ function Header() {
 					<div className="profile-description">
 						<span className="label">About Me</span>
 						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-							facilis obcaecati autem voluptatum, minima officiis corrupti
-							deserunt placeat et sed. Cum nesciunt tempora vitae ut similique
-							aliquam non, sint accusamus modi eius suscipit commodi
-							consequatur, alias necessitatibus dolor tempore aliquid dolore
-							dignissimos eos minima doloribus provident.
+							Lorem, ipsum dolor sit amet consectetur adipisicing
+							elit. Suscipit facilis obcaecati autem voluptatum,
+							minima officiis corrupti deserunt placeat et sed.
+							Cum nesciunt tempora vitae ut similique aliquam non,
+							sint accusamus modi eius suscipit commodi
+							consequatur, alias necessitatibus dolor tempore
+							aliquid dolore dignissimos eos minima doloribus
+							provident.
 						</p>
 					</div>
 				</Col>
 			</Row>
 			<Row className="justified-center">
-				<Col sm={8} style={{ textAlign: "left" }}>
-					<span className="label">My Github Activity</span>
-					<img
-						src="https://ghchart.rshah.org/klementina1809"
-						alt="Klementina GitHub chart"
-						style={{
-							width: "100%",
-							filter: "hue-rotate(100deg)",
-							marginTop: 10,
-							marginBottom: 40,
-						}}
-					/>
+				<Col sm={8}>
+					<div className="profile-github">
+						<span className="label">My Github Activity</span>
+						<img
+							src="https://ghchart.rshah.org/klementina1809"
+							alt="Klementina GitHub chart"
+						/>
+					</div>
 				</Col>
 			</Row>
 		</>
