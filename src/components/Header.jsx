@@ -5,12 +5,12 @@ function Header() {
 	return (
 		<>
 			<Row className="justified-center">
-				<Col sm={12}>
+				<Col lg={12}>
 					<h1 className="title">Albina Khomenko</h1>
 				</Col>
 			</Row>
 			<Row className="header justified-center">
-				<Col sm={2}>
+				<Col lg={2} >
 					<a
 						target="_blank"
 						href="https://www.linkedin.com/in/albina-khomenko-573823210/"
@@ -18,12 +18,12 @@ function Header() {
 						LinedIn
 					</a>
 				</Col>
-				<Col sm={3}>
+				<Col lg={3} >
 					<div className="main-photo">
 						<img src="./photo/photo.png" alt="" />
 					</div>
 				</Col>
-				<Col sm={2}>
+				<Col lg={2} >
 					<a target="_blank" href="https://github.com/klementina1809">
 						GitHub
 					</a>
@@ -31,7 +31,7 @@ function Header() {
 			</Row>
 
 			<Row className="justified-center">
-				<Col sm={8}>
+				<Col xs={12} lg={12} xl={8}>
 					<div className="profile-description">
 						<span className="label">About Me</span>
 						<p>
@@ -48,7 +48,7 @@ function Header() {
 				</Col>
 			</Row>
 			<Row className="justified-center">
-				<Col sm={8}>
+				<Col lg={12} xl={8}>
 					<div className="profile-github">
 						<span className="label">My Github Activity</span>
 						<img

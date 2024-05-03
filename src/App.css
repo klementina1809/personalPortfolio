@@ -9,4 +9,15 @@
   text-align: center;
 }
 
+@media (max-width: 768px) {
+	#root {
+		padding: auto 0;
+	}
+}
+@media (max-width: 576px) {
+	#root {
+		padding: 10px;
+	}
+}
+
 

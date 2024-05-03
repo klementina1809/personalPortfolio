@@ -20,7 +20,7 @@ function Projects() {
 					.sort((a, b) => b.id - a.id)
 					.map((project) => {
 						return (
-							<Col sm={4} key={project.id}>
+							<Col  sm={12} md={6} xl={4} key={project.id}>
 								<Project data={project} />
 							</Col>
 						);
