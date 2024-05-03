@@ -1,22 +1,14 @@
 .project {
-	max-height: 520px;
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 40px;
 	padding: 40px;
 	gap: 10px;
-	background-color: #f5e8dc0a;
 	border-radius: 12px;
 	box-shadow: 0px 0px 6px -1px #00000030;
 }
-.project h3 {
-	margin-top: 0;
-	margin-bottom: 18px;
-	font-size: 24px;
-}
 
 .project img {
-	margin: 0 auto 10px;
 	border-radius: 8px;
 	width: 100%;
 	box-shadow: 7px 7px 7px #00000030;
@@ -25,37 +17,38 @@
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	height: 186px;
-	/* flex: 1; */
 }
+
+.project .description-container {
+	display: flex;
+	height: 150px;
+	/* align-items: center; */
+}
+
 .project p.description {
-	margin-bottom: 20px;
-	/* margin: 0px auto; */
-	margin: auto;
-	/* flex: 1; */
+	margin: 0;
 	font-size: 18px;
 	text-align: start;
 }
 .project span.date {
-	display: inline-block;
 	color: rgb(137, 137, 137);
 	font-size: 0.9rem;
 	font-weight: 600;
 	text-align: start;
 }
 .project .button-container {
-	margin-top: auto;
 	display: flex;
-	justify-content: space-evenly;
+	gap: 15px;
 }
 .project .button-container a {
 	color: black;
-	border: 0;
+	flex: 1;
 	box-shadow: 0px 0px 6px -1px #00000030;
-	padding: 8px 33px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 	border-radius: 8px;
 }
 .project .button-container a:hover {
-	background-color: white;
-	color: black;
+	box-shadow: 2px 5px 6px 3px #00000040;
+	transition: all 0.3s ease;
 }
