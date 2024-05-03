@@ -35,13 +35,13 @@ h1 {
 	font-size: 2.5em;
 }
 
-.profile-description, 
+.profile-description,
 .profile-github {
 	margin-top: 20px;
 	text-align: left;
 }
 
-.profile-github img{
+.profile-github img {
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 40px;
