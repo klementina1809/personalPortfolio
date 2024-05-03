@@ -10,11 +10,12 @@ function Projects() {
 	return (
 		<>
 			<hr />
-			<Row>
-				<h2 className="center">PROJECTS</h2>
+			<Row style={{ marginTop: 40 }}>
+				<h2 className="center" style={{ fontWeight: 700 }}>
+					PROJECTS
+				</h2>
 			</Row>
-			<hr />
-			<Row className='projects-container'>
+			<Row className="projects-container">
 				{projects
 					.sort((a, b) => b.id - a.id)
 					.map((project) => {

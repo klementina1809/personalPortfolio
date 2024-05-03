@@ -2,11 +2,11 @@
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 18px;
 
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
-  background-color: #28282a;
+	background-color: #28282a;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -24,6 +24,8 @@ body {
 	place-items: center;
 	min-width: 320px;
 	min-height: 100vh;
+	background-color: #eeeeee;
+	color: black;
 }
 
 h1 {
@@ -49,6 +51,6 @@ button:focus,
 button:focus-visible {
 	outline: 4px auto -webkit-focus-ring-color;
 }
- hr{
+hr {
 	margin-block: 1em;
- }
+}

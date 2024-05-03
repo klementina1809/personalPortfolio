@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Bad+Script");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600");
+
 .main-photo img {
 	max-width: 220px;
 	border-radius: 50%;
@@ -8,4 +11,39 @@
 }
 h1 {
 	margin: 20px 0px;
+}
+
+hr {
+	border-color: #6f6f6f;
+}
+
+.justified-center {
+	justify-content: center !important;
+}
+
+.title {
+	font-family: "Bad Script";
+	font-size: 2.5em;
+}
+
+* {
+	font-family: "Poppins";
+}
+
+.profile-description {
+	margin-top: 40px;
+}
+
+.profile-description p {
+	margin-top: 0px;
+	margin-bottom: 40px;
+	text-align: justify;
+	margin-left: 35px;
+}
+
+.label {
+	font-family: "Bad Script";
+	font-size: 26px;
+	color: #6f6f6f;
+	margin-left: 35px;
 }

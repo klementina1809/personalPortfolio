@@ -6,8 +6,8 @@
 	padding: 40px;
 	gap: 10px;
 	background-color: #f5e8dc0a;
-	border-radius: 8px;
-	box-shadow: 7px 7px 7px #00000030;
+	border-radius: 12px;
+	box-shadow: 0px 0px 6px -1px #00000030;
 }
 .project h3 {
 	margin-top: 0;
@@ -34,11 +34,14 @@
 	margin: auto;
 	/* flex: 1; */
 	font-size: 18px;
+	text-align: start;
 }
 .project span.date {
 	display: inline-block;
 	color: rgb(137, 137, 137);
 	font-size: 0.9rem;
+	font-weight: 600;
+	text-align: start;
 }
 .project .button-container {
 	margin-top: auto;
@@ -46,8 +49,9 @@
 	justify-content: space-evenly;
 }
 .project .button-container a {
-	color: white;
-	border: 1px solid white;
+	color: black;
+	border: 0;
+	box-shadow: 0px 0px 6px -1px #00000030;
 	padding: 8px 33px;
 	border-radius: 8px;
 }
