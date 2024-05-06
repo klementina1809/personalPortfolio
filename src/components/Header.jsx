@@ -10,7 +10,7 @@ function Header() {
 				</Col>
 			</Row>
 			<Row className="header justified-center">
-				<Col lg={2} >
+				<Col lg={2}>
 					<a
 						target="_blank"
 						href="https://www.linkedin.com/in/albina-khomenko-573823210/"
@@ -18,12 +18,12 @@ function Header() {
 						LinedIn
 					</a>
 				</Col>
-				<Col lg={3} >
+				<Col lg={3}>
 					<div className="main-photo">
 						<img src="./photo/photo.png" alt="" />
 					</div>
 				</Col>
-				<Col lg={2} >
+				<Col lg={2}>
 					<a target="_blank" href="https://github.com/klementina1809">
 						GitHub
 					</a>
@@ -34,15 +34,19 @@ function Header() {
 				<Col xs={12} lg={12} xl={8}>
 					<div className="profile-description">
 						<span className="label">About Me</span>
+						<p style={{ marginBottom: "0" }}>
+							Sono una perfezionista tenace, costantemente alla
+							ricerca della soluzione ottimale e della massima
+							qualità. La mia determinazione mi spinge a
+							completare ogni compito, affrontando le sfide con
+							curiosità e dedizione.
+						</p>
 						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing
-							elit. Suscipit facilis obcaecati autem voluptatum,
-							minima officiis corrupti deserunt placeat et sed.
-							Cum nesciunt tempora vitae ut similique aliquam non,
-							sint accusamus modi eius suscipit commodi
-							consequatur, alias necessitatibus dolor tempore
-							aliquid dolore dignissimos eos minima doloribus
-							provident.
+							Il mio percorso in programmazione è iniziato quasi
+							da zero un anno fa, e da allora ho combinato lo
+							studio attraverso corsi e video con la pratica
+							diretta, creando numerosi progetti React per
+							applicare le mie conoscenze in modo tangibile.
 						</p>
 					</div>
 				</Col>
