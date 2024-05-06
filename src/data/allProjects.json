@@ -120,11 +120,11 @@
 		{
 			"id": 14,
 			"title": "Personal Portfolio",
-			"description": "Portfolio personale con informazioni su di me, i miei progetti e i miei contatti.",
+			"description": "Portfolio personale con informazioni su di me, i miei progetti e i miei profili.",
 			"img": "./photo/portfolio.jpg",
 			"linkWeb": "https://klementina1809.github.io/personalPortfolio/",
 			"linkGit": "https://github.com/klementina1809/personalPortfolio",
-			"date": ".24"
+			"date": "03.05.24"
 		}
 	]
 }
