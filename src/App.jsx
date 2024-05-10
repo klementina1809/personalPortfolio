@@ -3,6 +3,7 @@ import { Row, Col, Container } from "react-grid-system";
 
 import Projects from "./components/Projects";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -11,6 +12,7 @@ function App() {
 		<Container>
 			<Header />
 			<Projects />
+			<Footer/>
 		</Container>
 	);
 }

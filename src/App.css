@@ -1,6 +1,7 @@
 @import url('style/header.css');
 @import url('style/project.css');
 @import url('style/projects.css');
+@import url('style/footer.css');
 
 #root {
   max-width: 1280px;
