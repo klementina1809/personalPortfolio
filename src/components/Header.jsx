@@ -13,7 +13,7 @@ function Header() {
 				<Col lg={2}>
 					<a
 						target="_blank"
-						href="https://www.linkedin.com/in/albina-khomenko-573823210/"
+						href="https://www.linkedin.com/in/albina-khomenko/"
 					>
 						LinedIn
 					</a>
