@@ -38,15 +38,16 @@ function Header() {
 							Sono una perfezionista tenace, costantemente alla
 							ricerca della soluzione ottimale e della massima
 							qualità. La mia determinazione mi spinge a
-							completare ogni compito, affrontando le sfide con
+							completare ogni compito affrontando le sfide con
 							curiosità e dedizione.
 						</p>
 						<p>
-							Il mio percorso in programmazione è iniziato quasi
-							da zero un anno fa, e da allora ho combinato lo
-							studio attraverso corsi e video con la pratica
-							diretta, creando numerosi progetti React per
-							applicare le mie conoscenze in modo tangibile.
+							Il mio percorso da programmatrice e iniziato circa
+							un anno fa e da allora ho combinato lo studio
+							attraverso corsi online con la pratica diretta di
+							progetti React. I progetti che ho sviluppato usano:
+							React, JavaScript, Git, npm, HTML, CSS, SASS,
+							Bootstrap, Tailwind.
 						</p>
 					</div>
 				</Col>
