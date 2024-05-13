@@ -125,6 +125,15 @@
 			"linkWeb": "https://klementina1809.github.io/personalPortfolio/",
 			"linkGit": "https://github.com/klementina1809/personalPortfolio",
 			"date": "03.05.24"
+		},
+		{
+			"id": 15,
+			"title": "Currency Converter",
+			"description": "Un semplice convertitore di valuta in JavaScript che utilizza richieste API per ottenere i dati.",
+			"img": "./photo/currency-converter.jpg",
+			"linkWeb": "https://klementina1809.github.io/currencyConverter/",
+			"linkGit": "https://github.com/klementina1809/currencyConverter",
+			"date": "13.05.24"
 		}
 	]
 }
