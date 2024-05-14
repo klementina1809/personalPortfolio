@@ -1,13 +1,13 @@
-@import url('style/header.css');
-@import url('style/project.css');
-@import url('style/projects.css');
-@import url('style/footer.css');
+@import url("style/header.css");
+@import url("style/project.css");
+@import url("style/projects.css");
+@import url("style/footer.css");
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -20,5 +20,3 @@
 		padding: 10px;
 	}
 }
-
-
