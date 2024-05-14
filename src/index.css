@@ -33,7 +33,6 @@ body {
 hr {
 	display: block;
 	margin-block: 0 40px;
-	border-color: #2887ad1a;
-	box-shadow: 0px 0px 6px 0px #2887ad59;
-	
+	border: 0.1px solid #46b1dc00;
+	box-shadow: 0px 0px 3px 0px #2887ad59;
 }

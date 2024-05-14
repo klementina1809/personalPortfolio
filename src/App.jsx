@@ -12,7 +12,7 @@ function App() {
 		<Container>
 			<Header />
 			<Projects />
-			<Footer/>
+			<Footer />
 		</Container>
 	);
 }
