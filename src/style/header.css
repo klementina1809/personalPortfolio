@@ -45,7 +45,7 @@ h1 {
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 40px;
-	filter: hue-rotate(100deg) drop-shadow(1px 1px 1px #00000030);
+	filter: drop-shadow(1px 1px 1px #00000030);
 }
 
 .profile-description p {

@@ -57,7 +57,7 @@ function Header() {
 					<div className="profile-github">
 						<span className="label">My Github Activity</span>
 						<img
-							src="https://ghchart.rshah.org/klementina1809"
+							src="https://ghchart.rshah.org/2887ad/klementina1809"
 							alt="Klementina GitHub chart"
 						/>
 					</div>
