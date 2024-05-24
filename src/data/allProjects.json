@@ -134,6 +134,15 @@
 			"linkWeb": "https://klementina1809.github.io/currencyConverter/",
 			"linkGit": "https://github.com/klementina1809/currencyConverter",
 			"date": "13.05.24"
+		},
+		{
+			"id": 16,
+			"title": "Cat Generator",
+			"description": "in progress...",
+			"img": "./photo/cat.jpg",
+			"linkWeb": "",
+			"linkGit": "",
+			"date": "00.06.24"
 		}
 	]
 }
