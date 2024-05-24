@@ -137,6 +137,15 @@
 		},
 		{
 			"id": 16,
+			"title": "Text Editor",
+			"description": "Un editor di testo che formatta in corsivo, sottolineato e grassetto, e aggiunge il testo al pannello delle email inviate.",
+			"img": "./photo/text-editor.jpg",
+			"linkWeb": "http://localhost:5174/email-editor/",
+			"linkGit": "https://github.com/klementina1809/email-editor",
+			"date": "24.05.24"
+		},
+		{
+			"id": 17,
 			"title": "Cat Generator",
 			"description": "in progress...",
 			"img": "./photo/cat.jpg",
