@@ -147,11 +147,11 @@
 		{
 			"id": 17,
 			"title": "Cat Generator",
-			"description": "in progress...",
+			"description": "Un'app che mostra immagini e fatti casuali di gatti, permettendo di esportare il contenuto in PDF, ottenendo dati tramite richieste API al server.",
 			"img": "./photo/cat.jpg",
-			"linkWeb": "",
-			"linkGit": "",
-			"date": "00.06.24"
+			"linkWeb": "https://klementina1809.github.io/cat-generator/",
+			"linkGit": "https://github.com/klementina1809/cat-generator",
+			"date": "17.06.24"
 		}
 	]
 }
