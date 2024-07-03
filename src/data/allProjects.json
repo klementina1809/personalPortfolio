@@ -157,7 +157,7 @@
 			"id": 18,
 			"title": "Memory Game",
 			"description": "In progress...",
-			"img": "public/photo/memory.png",
+			"img": "./photo/memory.png",
 			"linkWeb": "https://klementina1809.github.io/memory/",
 			"linkGit": "https://github.com/klementina1809/memory",
 			"date": ".07.24"
