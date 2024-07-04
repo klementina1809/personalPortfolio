@@ -156,11 +156,11 @@
 		{
 			"id": 18,
 			"title": "Memory Game",
-			"description": "In progress...",
-			"img": "./photo/memory.png",
+			"description": "Gioco Memory con carte ispirate a 'Inside Out 2'. Scopo: trovare tutte le coppie di personaggi con il minor numero di mosse.",
+			"img": "./photo/memory.jpg",
 			"linkWeb": "https://klementina1809.github.io/memory/",
 			"linkGit": "https://github.com/klementina1809/memory",
-			"date": ".07.24"
+			"date": "04.07.24"
 		}
 	]
 }
