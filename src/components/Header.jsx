@@ -35,18 +35,16 @@ function Header() {
 					<div className="profile-description">
 						<span className="label">About Me</span>
 						<p style={{ marginBottom: "0" }}>
-							Sono una perfezionista tenace, costantemente alla
-							ricerca della soluzione ottimale e della massima
-							qualità. La mia determinazione mi spinge a
-							completare ogni compito affrontando le sfide con
+							Sono una perfezionista tenace, costantemente alla ricerca della
+							soluzione ottimale e della massima qualità. La mia determinazione
+							mi spinge a completare ogni compito affrontando le sfide con
 							curiosità e dedizione.
 						</p>
 						<p>
-							Il mio percorso da programmatrice e iniziato circa
-							un anno fa e da allora ho combinato lo studio
-							attraverso corsi online con la pratica diretta di
-							progetti React. I progetti che ho sviluppato usano:
-							React, JavaScript, Git, npm, HTML, CSS, SASS,
+							Il mio percorso da programmatrice e iniziato circa un anno fa e da
+							allora ho combinato lo studio attraverso corsi online con la
+							pratica diretta di progetti React. I progetti che ho sviluppato
+							usano: React, JavaScript, TypeScript Git, npm, HTML, CSS, SASS,
 							Bootstrap, Tailwind.
 						</p>
 					</div>

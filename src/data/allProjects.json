@@ -161,6 +161,15 @@
 			"linkWeb": "https://klementina1809.github.io/memory/",
 			"linkGit": "https://github.com/klementina1809/memory",
 			"date": "04.07.24"
+		},
+		{
+			"id": 19,
+			"title": "WhatsStats",
+			"description": "Un progetto che analizza le chat di WhatsApp, mostrando grafici e statistiche sui messaggi e l'attività degli utenti.",
+			"img": "./photo/WhatsStats.jpg",
+			"linkWeb": "https://whatsstats.com/",
+			"linkGit": "https://github.com/IGOLz/whatsapp-analytics",
+			"date": "01.10.24"
 		}
 	]
 }
