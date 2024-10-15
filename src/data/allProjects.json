@@ -168,7 +168,7 @@
 			"description": "Un progetto che analizza le chat di WhatsApp, mostrando grafici e statistiche sui messaggi e l'attività degli utenti.",
 			"img": "./photo/WhatsStats.jpg",
 			"linkWeb": "https://whatsstats.com/",
-			"linkGit": "https://github.com/IGOLz/whatsapp-analytics",
+			"linkGit": null,
 			"date": "01.10.24"
 		}
 	]
