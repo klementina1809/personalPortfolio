@@ -166,10 +166,19 @@
 			"id": 19,
 			"title": "WhatsStats",
 			"description": "Un progetto che analizza le chat di WhatsApp, mostrando grafici e statistiche sui messaggi e l'attività degli utenti.",
-			"img": "./photo/WhatsStats.jpg",
+			"img": "./photo/WhatsStats1.jpg",
 			"linkWeb": "https://whatsstats.com/",
 			"linkGit": null,
 			"date": "01.10.24"
+		},
+		{
+			"id": 20,
+			"title": "Backoffice Dashboard",
+			"description": "Backoffice multipagina per la gestione dei dati degli utenti di un'app mobile, con autenticazione sicura e tabelle interattive per operazioni CRUD.",
+			"img": "./photo/backoffice.jpg",
+			"linkWeb": "https://streamable.com/uxaht4",
+			"linkGit": null,
+			"date": "07.11.24"
 		}
 	]
 }
