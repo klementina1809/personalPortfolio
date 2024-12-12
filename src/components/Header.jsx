@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col } from "react-grid-system";
+import { Col, Row } from "react-grid-system";
 
 function Header() {
 	return (
@@ -41,11 +41,13 @@ function Header() {
 							curiosità e dedizione.
 						</p>
 						<p>
-							Il mio percorso da programmatrice e iniziato circa un anno fa e da
-							allora ho combinato lo studio attraverso corsi online con la
-							pratica diretta di progetti React. I progetti che ho sviluppato
-							usano: React, JavaScript, TypeScript Git, npm, HTML, CSS, SASS,
-							Bootstrap, Tailwind.
+							Dall’inizio del mio percorso come programmatrice, ho unito lo
+							studio teorico attraverso corsi online alla pratica su progetti
+							reali, concentrandomi in particolare su React. Durante questa
+							esperienza, ho sviluppato applicazioni utilizzando tecnologie come
+							React, JavaScript, TypeScript, Git, npm, librerie di terze parti,
+							REST API, HTML, CSS, SASS, Bootstrap, Tailwind CSS, Material-UI e
+							Metronic.
 						</p>
 					</div>
 				</Col>
