@@ -74,3 +74,32 @@ h1 {
 		margin-left: 0;
 	}
 }
+.language-switcher {
+	position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 10; 
+  display: flex;
+  gap: 6px; 
+}
+.language-switcher a {
+  display: inline-block;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+	font-family: "Merienda";
+  color: var(--text-secondary-color);
+  margin: 0 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.language-switcher a:hover {
+  color: var(--secondary-light-color);
+}
+
+.language-switcher a.active {
+  color: var(--secondary-color);
+	cursor: default;
+}
