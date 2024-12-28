@@ -1,11 +1,5 @@
-import React from 'react'
-
 function Footer() {
-  return (
-    <div className='footer'>
-      © 2024 Albina Khomenko | klementina | All rights reserved
-    </div>
-  )
+	return <div className="footer">© 2025 Albina Khomenko | klementina</div>;
 }
 
-export default Footer
+export default Footer;

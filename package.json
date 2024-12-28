@@ -10,10 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "i18next": "^24.2.0",
+    "i18next-browser-languagedetector": "^8.0.2",
+    "i18next-http-backend": "^3.0.1",
     "json-loader": "^0.5.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-grid-system": "^8.2.0"
+    "react-grid-system": "^8.2.0",
+    "react-i18next": "^15.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.64",

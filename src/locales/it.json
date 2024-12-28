@@ -1,0 +1,30 @@
+{
+	"header": {
+		"aboutMe": "Su di me",
+		"aboutMeText": "Sono una perfezionista tenace, costantemente alla ricerca della soluzione ottimale e della massima qualità. La mia determinazione mi spinge a completare ogni compito affrontando le sfide con curiosità e dedizione. Dall'inizio del mio percorso come programmatrice, ho unito lo studio teorico attraverso corsi online alla pratica su progetti reali, concentrandomi in particolare su React. Durante questa esperienza, ho sviluppato applicazioni utilizzando tecnologie come React, JavaScript, TypeScript, Git, npm, librerie di terze parti, REST API, HTML, CSS, SASS, Bootstrap, Tailwind CSS, Material-UI e Metronic.",
+		"githubActivity": "La mia attività su Github",
+		"projects": "PROGETTI"
+	},
+	"projectDescriptions": {
+		"1": "Sito web per lo streaming di film. Il progetto è stato realizzato con HTML, CSS e JavaScript.",
+		"2": "Demo di un gestionale web per la gestione di clienti. Il progetto è stato realizzato con HTML e CSS.",
+		"3": "Applicazione di calcolatrice che permette di eseguire operazioni matematiche di base come addizione, sottrazione, moltiplicazione e divisione.",
+		"4": "Applicazione di gestione delle attività che permette di creare, modificare ed eliminare attività da fare.",
+		"5": "Stazione meteorologica che mostra le previsioni meteo attuali e future per una località specifica.",
+		"6": "Generatore di password che permette di creare password personalizzate con lunghezza e caratteri specifici.",
+		"7": "Applicazione che permette di modificare il border radius di un quadrato tramite l'utilizzo di campi di input.",
+		"8": "Calendario che utilizza il primo giorno dell'anno selezionato per generare un calendario mensile con i giorni della settimana corrispondenti.",
+		"9": "Simulatore di slot machine con funzionalità di gioco e vincita di premi in base alla combinazione di simboli ottenuti e al valore della scommessa.",
+		"10": "Un'applicazione per gestire una collezione di film. Permette all'utente di aggiungere, salvare o eliminare titoli.",
+		"11": "Gioco di password che permette di indovinare la parola segreta in base a regole e suggerimenti forniti dall'applicazione stessa.",
+		"12": "Applicazione di conteggio per giocatori di giochi da tavolo, con opzioni di aggiunta e sottrazione di punti e reset del punteggio.",
+		"13": "Simulatore di Blackjack con regole e meccaniche di gioco realistici.",
+		"14": "Portfolio personale con informazioni su di me, i miei progetti e i miei profili.",
+		"15": "Un semplice convertitore di valuta in JavaScript che utilizza richieste API per ottenere i dati.",
+		"16": "Un editor di testo che formatta in corsivo, sottolineato e grassetto, e aggiunge il testo al pannello delle email inviate.",
+		"17": "Un'app che mostra immagini e fatti casuali di gatti, permettendo di esportare il contenuto in PDF, ottenendo dati tramite richieste API al server.",
+		"18": "Gioco Memory con carte ispirate a 'Inside Out 2'. Scopo: trovare tutte le coppie di personaggi con il minor numero di mosse.",
+		"19": "Un progetto che analizza le chat di WhatsApp, mostrando grafici e statistiche sui messaggi e l'attività degli utenti.",
+		"20": "Backoffice multipagina per la gestione dei dati degli utenti di un'app mobile, con autenticazione sicura e tabelle interattive per operazioni CRUD."
+	}
+}

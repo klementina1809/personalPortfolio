@@ -1,0 +1,30 @@
+{
+	"header": {
+		"aboutMe": "About Me",
+		"aboutMeText": "I am a tenacious perfectionist, constantly seeking the optimal solution and maximum quality. My determination drives me to complete every task, facing challenges with curiosity and dedication. Since the beginning of my journey as a programmer, I have combined theoretical study through online courses with practice on real projects, focusing particularly on React. During this experience, I have developed applications using technologies such as React, JavaScript, TypeScript, Git, npm, third-party libraries, REST API, HTML, CSS, SASS, Bootstrap, Tailwind CSS, Material-UI, and Metronic.",
+		"githubActivity": "My Github Activity",
+		"projects": "PROJECTS"
+	},
+	"projectDescriptions": {
+		"1": "Website for movie streaming. The project was created using HTML, CSS, and JavaScript.",
+		"2": "Demo of a web management system for handling clients. The project was created using HTML and CSS.",
+		"3": "Calculator application that allows performing basic mathematical operations like addition, subtraction, multiplication, and division.",
+		"4": "Task management application that allows creating, editing, and deleting tasks.",
+		"5": "Weather station that displays current and future weather forecasts for a specific location.",
+		"6": "Password generator that creates customizable passwords with specific lengths and characters.",
+		"7": "Application that allows adjusting the border radius of a square using input fields.",
+		"8": "Calendar that uses the first day of the selected year to generate a monthly calendar with corresponding weekdays.",
+		"9": "Slot machine simulator with gameplay functionality and prize winnings based on symbol combinations and bet values.",
+		"10": "An application to manage a movie collection. It allows users to add, save, or delete titles.",
+		"11": "Password game that lets users guess the secret word based on rules and hints provided by the application.",
+		"12": "Counting application for board game players, with options to add, subtract points, and reset scores.",
+		"13": "Blackjack simulator with realistic game rules and mechanics.",
+		"14": "Personal portfolio with information about me, my projects, and my profiles.",
+		"15": "A simple JavaScript currency converter that uses API requests to fetch data.",
+		"16": "A text editor that formats text as italic, underlined, or bold, and adds the text to the sent emails panel.",
+		"17": "An app that displays random cat images and facts, allowing users to export content to a PDF, fetching data via API requests.",
+		"18": "Memory game with cards inspired by 'Inside Out 2'. Goal: match all character pairs with the fewest moves.",
+		"19": "A project analyzing WhatsApp chats, displaying graphs and statistics on user messages and activity.",
+		"20": "Multi-page backoffice for managing mobile app user data, with secure authentication and interactive tables for CRUD operations."
+	}
+}
