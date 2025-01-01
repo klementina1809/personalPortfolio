@@ -1,5 +1,8 @@
 function Footer() {
-	return <div className="footer">© 2025 Albina Khomenko | klementina</div>;
+	const currentYear = new Date().getFullYear();
+	return (
+		<div className="footer">© {currentYear} Albina Khomenko | klementina</div>
+	);
 }
 
 export default Footer;
