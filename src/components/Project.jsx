@@ -5,7 +5,9 @@ function Project({ data }) {
 
 	return (
 		<div className="project">
-			<img src={data.img} alt="" />
+			<a href={data.linkWeb} target="_blank" rel="noreferrer">
+				<img src={data.img} alt="" />
+			</a>
 			<div className="info-container">
 				<span className="date">{data.date}</span>
 				<div className="description-container">
