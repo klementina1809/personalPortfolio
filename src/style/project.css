@@ -28,6 +28,7 @@
 	margin: 0;
 	font-size: 1rem;
 	text-align: start;
+	text-align: justify;
 }
 .project span.date {
 	color: #68696cca;
