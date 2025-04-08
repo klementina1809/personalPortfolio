@@ -49,10 +49,16 @@ function Header() {
 				<Col lg={12} xl={8}>
 					<div className="profile-github">
 						<span className="label">{t("header.githubActivity")}</span>
-						<img
-							src="https://ghchart.rshah.org/2887ad/klementina1809"
-							alt="Klementina GitHub chart"
-						/>
+						<a
+							href="https://github.com/klementina1809"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img
+								src="https://ghchart.rshah.org/2887ad/klementina1809"
+								alt="Klementina GitHub chart"
+							/>
+						</a>
 					</div>
 				</Col>
 			</Row>
