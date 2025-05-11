@@ -1,7 +1,7 @@
 {
 	"header": {
 		"aboutMe": "Su di me",
-		"aboutMeText": "Sono una perfezionista tenace, costantemente alla ricerca della soluzione ottimale e della massima qualità. La mia determinazione mi spinge a completare ogni compito affrontando le sfide con curiosità e dedizione. Dall'inizio del mio percorso come programmatrice, ho unito lo studio teorico attraverso corsi online alla pratica su progetti reali, concentrandomi in particolare su React. Durante questa esperienza, ho sviluppato applicazioni utilizzando tecnologie come React, JavaScript, TypeScript, Git, npm, librerie di terze parti, REST API, HTML, CSS, SASS, Bootstrap, Tailwind CSS, Material-UI e Metronic.",
+		"aboutMeText": "Sono una sviluppatrice front-end determinata e attenta ai dettagli, con un approccio orientato alla qualità e alla ricerca costante di soluzioni efficaci. Fin dall'inizio del mio percorso ho combinato la formazione teorica con la pratica su progetti concreti, focalizzandomi sullo sviluppo con React. Ho realizzato oltre 18 applicazioni durante la fase di apprendimento e oggi contribuisco attivamente a progetti più strutturati, collaborando allo sviluppo di siti web e strumenti digitali interni per aziende. Utilizzo quotidianamente tecnologie come React, TypeScript, JavaScript, Next.js, REST API, Tailwind, SASS, Figma, Git, npm, librerie di terze parti e tool di gestione come React Query, Zustand e React Hook Form.",
 		"githubActivity": "La mia attività su Github",
 		"projects": "PROGETTI"
 	},
