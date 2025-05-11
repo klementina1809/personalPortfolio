@@ -1,7 +1,7 @@
 {
 	"header": {
 		"aboutMe": "About Me",
-		"aboutMeText": "I am a tenacious perfectionist, constantly seeking the optimal solution and maximum quality. My determination drives me to complete every task, facing challenges with curiosity and dedication. Since the beginning of my journey as a programmer, I have combined theoretical study through online courses with practice on real projects, focusing particularly on React. During this experience, I have developed applications using technologies such as React, JavaScript, TypeScript, Git, npm, third-party libraries, REST API, HTML, CSS, SASS, Bootstrap, Tailwind CSS, Material-UI, and Metronic.",
+		"aboutMeText": "I’m a detail-oriented and determined front-end developer with a strong focus on quality and a constant drive to find effective solutions. Since the beginning of my journey, I’ve combined theoretical learning with hands-on practice on real projects, focusing on React development. I’ve built over 18 applications during my training and now actively contribute to more structured projects, developing websites and internal digital tools for companies. I work daily with technologies such as React, TypeScript, JavaScript, Next.js, REST API, Tailwind, SASS, Figma, Git, npm, third-party libraries, and tools like React Query, Zustand, and React Hook Form.",
 		"githubActivity": "My Github Activity",
 		"projects": "PROJECTS"
 	},
