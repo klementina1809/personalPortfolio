@@ -9,7 +9,7 @@ function Project({ data }) {
 				<img src={data.img} alt="" />
 			</a>
 			<div className="info-container">
-				<span className="date">{data.date}</span>
+				{/* <span className="date">{data.date}</span> */}
 				<div className="description-container">
 					<p className="description">{t(`projectDescriptions.${data.id}`)}</p>
 				</div>
