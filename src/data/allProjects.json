@@ -167,7 +167,7 @@
 			"title": "WhatsStats",
 			"description": "Un progetto che analizza le chat di WhatsApp, mostrando grafici e statistiche sui messaggi e l'attività degli utenti.",
 			"img": "./photo/WhatsStats1.jpg",
-			"linkWeb": "https://whatsstats.com/",
+			"linkWeb": "https://whatsstats.netlify.app/",
 			"linkGit": null,
 			"date": "01.10.24"
 		},
