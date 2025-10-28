@@ -1,7 +1,7 @@
 {
 	"header": {
 		"aboutMe": "Su di me",
-		"aboutMeText": "Sono una sviluppatrice front-end determinata e attenta ai dettagli, con un approccio orientato alla qualità e alla ricerca costante di soluzioni efficaci. Fin dall'inizio del mio percorso ho combinato la formazione teorica con la pratica su progetti concreti, focalizzandomi sullo sviluppo con React. Ho realizzato oltre 18 applicazioni durante la fase di apprendimento e oggi contribuisco attivamente a progetti più strutturati, collaborando allo sviluppo di siti web e strumenti digitali interni per aziende. Utilizzo quotidianamente tecnologie come React, TypeScript, JavaScript, Next.js, REST API, Tailwind, SASS, Figma, Git, npm, librerie di terze parti e tool di gestione come React Query, Zustand e React Hook Form.",
+		"aboutMeText": "Sono una sviluppatrice front-end orientata alla qualità, con attenzione ai dettagli e alla ricerca di soluzioni efficaci. Ho iniziato il mio percorso combinando studio e pratica su progetti reali, realizzando diversi pet projects per consolidare le mie competenze. Per più di un anno e mezzo ho collaborato allo sviluppo del progetto Archivio Digitale per un'agenzia dell'alta moda, lavorando sul front-end, sulla UI e sull'integrazione con API. Utilizzo quotidianamente tecnologie come React, TypeScript, Next.js, Tailwind, Figma, Git, React Query, Zustand e React Hook Form.",
 		"githubActivity": "La mia attività su Github",
 		"projects": "PROGETTI"
 	},
