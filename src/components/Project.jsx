@@ -14,9 +14,13 @@ function Project({ data }) {
 					<p className="description">{t(`projectDescriptions.${data.id}`)}</p>
 				</div>
 				<div className="button-container">
-					<a href={data.linkWeb} target="_blank" rel="noreferrer">
-						Demo
-					</a>
+					{data.linkWeb && data.linkWeb.trim() !== "" ? (
+						<a href={data.linkWeb} target="_blank" rel="noreferrer">
+							Demo
+						</a>
+					) : (
+						<span className="disabled-button">Demo</span>
+					)}
 					{data.linkGit !== null && (
 						<a href={data.linkGit} target="_blank" rel="noreferrer">
 							GitHub

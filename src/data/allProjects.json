@@ -176,7 +176,7 @@
 			"title": "Backoffice Dashboard",
 			"description": "Backoffice multipagina per la gestione dei dati degli utenti di un'app mobile, con autenticazione sicura e tabelle interattive per operazioni CRUD.",
 			"img": "./photo/backoffice.jpg",
-			"linkWeb": "https://streamable.com/uxaht4",
+			"linkWeb": "",
 			"linkGit": null,
 			"date": "07.11.24"
 		}
