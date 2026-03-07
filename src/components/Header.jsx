@@ -18,7 +18,7 @@ function Header() {
 						href="https://www.linkedin.com/in/albina-khomenko/"
 						rel="noreferrer"
 					>
-						LinedIn
+						LinkedIn
 					</a>
 				</Col>
 				<Col lg={3}>
