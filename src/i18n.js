@@ -19,10 +19,13 @@ i18n
 				translation: it,
 			}
 		},
+		supportedLngs: ["en", "it"],
+		nonExplicitSupportedLngs: true,
 		fallbackLng: "en",
 		debug: true,
 		detection: {
 			order: ["navigator", "htmlTag", "path", "subdomain"],
+			caches: [],
 		},
 		interpolation: {
 			escapeValue: false,
