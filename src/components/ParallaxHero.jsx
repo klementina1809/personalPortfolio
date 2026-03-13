@@ -54,6 +54,7 @@ function ParallaxHero() {
 
 	useEffect(() => {
 		if (!sceneRef.current || typeof window === "undefined") return;
+		if (window.innerWidth <= 991) return;
 
 		const ParallaxLib = window.Parallax;
 		const gsap = window.gsap;
@@ -133,23 +134,37 @@ function ParallaxHero() {
 	}, []);
 
 	return (
-		<div className="header-hero-bg">
-			<ul id="header-scene" ref={sceneRef}>
-				{techTags.map((tag) => (
-					<li
-						key={tag.label}
-						className="tech-tag-layer"
-						data-depth={tag.depth}
-						style={{
-							left: `${tag.left}%`,
-							top: `${tag.top}%`,
-						}}
-					>
-						<span className="tech-tag">{tag.label}</span>
-					</li>
-				))}
-			</ul>
-		</div>
+		<>
+			{/* Desktop: parallax, hidden on ≤991px */}
+			<div className="header-hero-bg wf_int-hero_section">
+				<ul id="header-scene" ref={sceneRef}>
+					{techTags.map((tag) => (
+						<li
+							key={tag.label}
+							className="tech-tag-layer"
+							data-depth={tag.depth}
+							style={{
+								left: `${tag.left}%`,
+								top: `${tag.top}%`,
+							}}
+						>
+							<span className="tech-tag">{tag.label}</span>
+						</li>
+					))}
+				</ul>
+			</div>
+
+			{/* Mobile: static flex wrap, shown only on ≤991px */}
+			<div className="wf_int-hero_section-mobile">
+				<div className="wf_hero-tags_mobile">
+					{techTags.map((tag) => (
+						<span key={tag.label} className="tech-tag">
+							{tag.label}
+						</span>
+					))}
+				</div>
+			</div>
+		</>
 	);
 }
 

@@ -188,6 +188,53 @@ h1 {
 
 /* no dark overlays — keep page background visible */
 
+/* ── Mobile section: hidden on desktop ─────────────────────────── */
+.wf_int-hero_section-mobile {
+	display: none;
+}
+
+/* ── Responsive switch at 991px ────────────────────────────────── */
+@media (max-width: 991px) {
+	.wf_int-hero_section {
+		display: none;
+	}
+	.wf_int-hero_section-mobile {
+		display: block;
+		position: relative;
+		z-index: 0;
+		padding: 0.75rem 0;
+	}
+}
+
+/* Mobile tags flex container */
+.wf_hero-tags_mobile {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.5rem;
+	max-height: 15rem;
+	overflow: hidden;
+	padding: 0.25rem 0.5rem;
+}
+
+/* Mobile tags: no blur, clear hover only via CSS */
+.wf_hero-tags_mobile .tech-tag {
+	filter: none;
+	opacity: 0.85;
+}
+
+@media (max-width: 767px) {
+	.wf_hero-tags_mobile .tech-tag {
+		padding: 0.5rem 1rem;
+	}
+}
+
+@media (max-width: 479px) {
+	.wf_hero-tags_mobile {
+		max-height: 10rem;
+	}
+}
+
 @media (max-width: 992px) {
 	.main-photo img {
 		margin-bottom: 20px;
@@ -201,7 +248,7 @@ h1 {
 }
 .language-switcher {
 	position: absolute;
-	top: 0px;
+	top: 28px;
 	right: 0px;
 	z-index: 10;
 	display: flex;
