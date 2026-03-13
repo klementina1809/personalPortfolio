@@ -28,7 +28,7 @@ function scatterOnGrid(defs, cols, rows, seed) {
 	}
 
 	const leftMax = 96;
-	const topMax = 67;
+	const topMax = 66;
 	const colW = leftMax / cols;
 	const rowH = topMax / rows;
 
