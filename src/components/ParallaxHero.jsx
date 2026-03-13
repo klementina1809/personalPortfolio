@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { tagDefs } from "./parallaxTags";
 
 // Simple seeded LCG random — same values on every render
 function makeRng(seed) {
@@ -9,41 +10,6 @@ function makeRng(seed) {
 	};
 }
 
-const tagDefs = [
-	{ label: "HTML5", depth: 0.6 },
-	{ label: "CSS3", depth: 0.9 },
-	{ label: "JavaScript", depth: 0.7 },
-	{ label: "TypeScript", depth: 1.2 },
-	{ label: "Vite", depth: 0.7 },
-	{ label: "React", depth: 1.1 },
-	{ label: "Next.js", depth: 0.9 },
-	{ label: "React Router DOM", depth: 1.4 },
-	{ label: "Zustand", depth: 0.7 },
-	{ label: "TanStack React Query", depth: 1.3 },
-	{ label: "React Hook Form", depth: 0.8 },
-	{ label: "Lodash", depth: 1.0 },
-	{ label: "Axios", depth: 0.9 },
-	{ label: "Figma", depth: 0.8 },
-	{ label: "Canva", depth: 1.1 },
-	{ label: "WordPress", depth: 0.7 },
-	{ label: "Elementor", depth: 1.2 },
-	{ label: "Miro", depth: 0.9 },
-	{ label: "Tailwind CSS", depth: 0.7 },
-	{ label: "SASS", depth: 1.2 },
-	{ label: "Bootstrap", depth: 0.8 },
-	{ label: "Material UI (MUI)", depth: 1.4 },
-	{ label: "Metronic", depth: 0.6 },
-	{ label: "shadcn", depth: 1.3 },
-	{ label: "Radix UI", depth: 0.9 },
-	{ label: "clsx", depth: 1.1 },
-	{ label: "Swagger / OpenAPI", depth: 0.8 },
-	{ label: "ApexCharts.js", depth: 1.2 },
-	{ label: "Postman", depth: 1.0 },
-	{ label: "Git", depth: 0.7 },
-	{ label: "ESLint", depth: 1.4 },
-	{ label: "Prettier", depth: 0.9 },
-	{ label: "Cursor / Claude Code", depth: 1.3 },
-];
 
 // Grid-scatter: divide space into cols×rows cells, place one tag per cell
 // with random jitter inside. Guarantees full coverage, no clustering.
@@ -67,6 +33,11 @@ function scatterOnGrid(defs, cols, rows, seed) {
 	const rowH = topMax / rows;
 
 	return defs.map((def, i) => {
+		if (def.forceLeft !== undefined && def.forceTop !== undefined) {
+			rng();
+			rng(); // consume RNG slots to keep others stable
+			return { ...def, left: def.forceLeft, top: def.forceTop };
+		}
 		const cell = cells[i % cells.length];
 		const left = parseFloat(
 			(cell.c * colW + rng() * colW * 0.85 + 1).toFixed(1),
@@ -76,7 +47,7 @@ function scatterOnGrid(defs, cols, rows, seed) {
 	});
 }
 
-const techTags = scatterOnGrid(tagDefs, 6, 6, 7331);
+const techTags = scatterOnGrid(tagDefs, 7, 8, 7331);
 
 function ParallaxHero() {
 	const sceneRef = useRef(null);
@@ -111,19 +82,47 @@ function ParallaxHero() {
 			}
 		}
 
-		if (gsap && sceneRef.current) {
-			const tags = sceneRef.current.querySelectorAll(".tech-tag");
+		const spans = sceneRef.current.querySelectorAll(".tech-tag");
 
-			gsap.set(tags, { opacity: 0, scale: 0.5 });
-
-			gsap.to(tags, {
-				opacity: 1,
-				scale: 1,
-				duration: 0.6,
-				ease: "back.out(1.7)",
-				stagger: 0.08,
-				delay: 0.3,
+		spans.forEach((span) => {
+			span.addEventListener("mouseenter", () => {
+				span.style.filter = "blur(0px)";
+				span.style.opacity = "1";
+				span.style.transform = "scale(1.18)";
+				span.style.background = "rgba(40,135,173,0.1)";
+				span.style.borderColor = "rgba(40,135,173,0.45)";
+				span.style.color = "#2887ad";
+				span.style.boxShadow =
+					"0 0 0 1px rgba(40,135,173,0.2), 0 12px 32px rgba(40,135,173,0.18)";
 			});
+			span.addEventListener("mouseleave", () => {
+				span.style.filter = "blur(2.5px)";
+				span.style.opacity = "0.75";
+				span.style.transform = "";
+				span.style.background = "";
+				span.style.borderColor = "";
+				span.style.color = "";
+				span.style.boxShadow = "";
+			});
+		});
+
+		if (gsap && sceneRef.current) {
+			// entrance: spans fade in blurry, parallax owns li transforms
+			gsap.fromTo(
+				spans,
+				{ opacity: 0, filter: "blur(10px)" },
+				{
+					opacity: 0.75,
+					filter: "blur(2.5px)",
+					duration: 0.7,
+					ease: "power2.out",
+					stagger: 0.07,
+					delay: 0.2,
+					onComplete() {
+						gsap.set(spans, { clearProps: "opacity,filter" });
+					},
+				},
+			);
 		}
 
 		return () => {
@@ -139,14 +138,14 @@ function ParallaxHero() {
 				{techTags.map((tag) => (
 					<li
 						key={tag.label}
-						className="tech-tag"
+						className="tech-tag-layer"
 						data-depth={tag.depth}
 						style={{
 							left: `${tag.left}%`,
 							top: `${tag.top}%`,
 						}}
 					>
-						{tag.label}
+						<span className="tech-tag">{tag.label}</span>
 					</li>
 				))}
 			</ul>
