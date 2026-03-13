@@ -1,53 +1,82 @@
 import { useEffect, useRef } from "react";
 
-const techTags = [
-	// 1 row
-	{ label: "HTML5", depth: 0.6, left: 4, top: 4 },
-	{ label: "CSS3", depth: 0.9, left: 22, top: 4 },
-	{ label: "JavaScript", depth: 0.7, left: 42, top: 4 },
-	{ label: "TypeScript", depth: 1.2, left: 64, top: 4 },
-	{ label: "Vite", depth: 0.8, left: 82, top: 4 },
+// Simple seeded LCG random — same values on every render
+function makeRng(seed) {
+	let s = seed >>> 0;
+	return () => {
+		s = Math.imul(s, 1664525) + 1013904223;
+		return (s >>> 0) / 0xffffffff;
+	};
+}
 
-	// 2 row
-	{ label: "React", depth: 1.1, left: 8, top: 20 },
-	{ label: "Next.js", depth: 0.9, left: 28, top: 20 },
-	{ label: "React Router DOM", depth: 1.4, left: 50, top: 20 },
-	{ label: "Zustand", depth: 0.7, left: 74, top: 20 },
-
-	// 3 row
-	{ label: "TanStack React Query", depth: 1.3, left: 6, top: 36 },
-	{ label: "React Hook Form", depth: 0.8, left: 32, top: 36 },
-	{ label: "Lodash", depth: 1.0, left: 56, top: 36 },
-	{ label: "Axios", depth: 0.9, left: 80, top: 36 },
-
-	// 4 row
-	{ label: "Figma", depth: 0.8, left: 14, top: 50 },
-	{ label: "Canva", depth: 1.1, left: 34, top: 50 },
-	{ label: "WordPress", depth: 0.7, left: 58, top: 50 },
-	{ label: "Elementor", depth: 1.2, left: 80, top: 50 },
-
-	// 5 row
-	{ label: "Tailwind CSS", depth: 0.7, left: 4, top: 64 },
-	{ label: "SASS", depth: 1.2, left: 24, top: 64 },
-	{ label: "Bootstrap", depth: 0.8, left: 44, top: 64 },
-	{ label: "Material UI (MUI)", depth: 1.4, left: 66, top: 64 },
-	{ label: "Metronic", depth: 0.6, left: 86, top: 64 },
-
-	// 6 row
-	{ label: "shadcn", depth: 1.3, left: 6, top: 77 },
-	{ label: "Radix UI", depth: 0.9, left: 26, top: 77 },
-	{ label: "clsx", depth: 1.1, left: 46, top: 77 },
-	{ label: "Swagger / OpenAPI", depth: 0.8, left: 70, top: 77 },
-	{ label: "ApexCharts.js", depth: 1.2, left: 90, top: 77 },
-
-	// 7 row
-	{ label: "Postman", depth: 1.0, left: 10, top: 89 },
-	{ label: "Git", depth: 0.7, left: 30, top: 89 },
-	{ label: "ESLint", depth: 1.4, left: 50, top: 89 },
-	{ label: "Prettier", depth: 0.9, left: 70, top: 89 },
-	{ label: "Cursor / Claude Code", depth: 1.3, left: 86, top: 89 },
-	{ label: "Miro", depth: 0.9, left: 40, top: 77 },
+const tagDefs = [
+	{ label: "HTML5", depth: 0.6 },
+	{ label: "CSS3", depth: 0.9 },
+	{ label: "JavaScript", depth: 0.7 },
+	{ label: "TypeScript", depth: 1.2 },
+	{ label: "Vite", depth: 0.7 },
+	{ label: "React", depth: 1.1 },
+	{ label: "Next.js", depth: 0.9 },
+	{ label: "React Router DOM", depth: 1.4 },
+	{ label: "Zustand", depth: 0.7 },
+	{ label: "TanStack React Query", depth: 1.3 },
+	{ label: "React Hook Form", depth: 0.8 },
+	{ label: "Lodash", depth: 1.0 },
+	{ label: "Axios", depth: 0.9 },
+	{ label: "Figma", depth: 0.8 },
+	{ label: "Canva", depth: 1.1 },
+	{ label: "WordPress", depth: 0.7 },
+	{ label: "Elementor", depth: 1.2 },
+	{ label: "Miro", depth: 0.9 },
+	{ label: "Tailwind CSS", depth: 0.7 },
+	{ label: "SASS", depth: 1.2 },
+	{ label: "Bootstrap", depth: 0.8 },
+	{ label: "Material UI (MUI)", depth: 1.4 },
+	{ label: "Metronic", depth: 0.6 },
+	{ label: "shadcn", depth: 1.3 },
+	{ label: "Radix UI", depth: 0.9 },
+	{ label: "clsx", depth: 1.1 },
+	{ label: "Swagger / OpenAPI", depth: 0.8 },
+	{ label: "ApexCharts.js", depth: 1.2 },
+	{ label: "Postman", depth: 1.0 },
+	{ label: "Git", depth: 0.7 },
+	{ label: "ESLint", depth: 1.4 },
+	{ label: "Prettier", depth: 0.9 },
+	{ label: "Cursor / Claude Code", depth: 1.3 },
 ];
+
+// Grid-scatter: divide space into cols×rows cells, place one tag per cell
+// with random jitter inside. Guarantees full coverage, no clustering.
+function scatterOnGrid(defs, cols, rows, seed) {
+	const rng = makeRng(seed);
+	const cells = [];
+	for (let r = 0; r < rows; r++) {
+		for (let c = 0; c < cols; c++) {
+			cells.push({ c, r });
+		}
+	}
+	// Fisher-Yates shuffle
+	for (let i = cells.length - 1; i > 0; i--) {
+		const j = Math.floor(rng() * (i + 1));
+		[cells[i], cells[j]] = [cells[j], cells[i]];
+	}
+
+	const leftMax = 96;
+	const topMax = 67;
+	const colW = leftMax / cols;
+	const rowH = topMax / rows;
+
+	return defs.map((def, i) => {
+		const cell = cells[i % cells.length];
+		const left = parseFloat(
+			(cell.c * colW + rng() * colW * 0.85 + 1).toFixed(1),
+		);
+		const top = parseFloat((cell.r * rowH + rng() * rowH * 0.8 + 2).toFixed(1));
+		return { ...def, left, top };
+	});
+}
+
+const techTags = scatterOnGrid(tagDefs, 6, 6, 7331);
 
 function ParallaxHero() {
 	const sceneRef = useRef(null);
@@ -75,10 +104,9 @@ function ParallaxHero() {
 				layers.forEach((layer, index) => {
 					const def = techTags[index];
 					if (!def) return;
-					const el = layer;
-					el.style.position = "absolute";
-					el.style.left = `${def.left}%`;
-					el.style.top = `${def.top}%`;
+					layer.style.position = "absolute";
+					layer.style.left = `${def.left}%`;
+					layer.style.top = `${def.top}%`;
 				});
 			}
 		}
@@ -86,10 +114,7 @@ function ParallaxHero() {
 		if (gsap && sceneRef.current) {
 			const tags = sceneRef.current.querySelectorAll(".tech-tag");
 
-			gsap.set(tags, {
-				opacity: 0,
-				scale: 0.5,
-			});
+			gsap.set(tags, { opacity: 0, scale: 0.5 });
 
 			gsap.to(tags, {
 				opacity: 1,
