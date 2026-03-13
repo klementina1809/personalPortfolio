@@ -11,3 +11,36 @@ h2 {
 .projects-container {
 	margin-top: 40px;
 }
+
+.projects-intro {
+	width: 100%;
+	margin: 16px auto 0;
+	padding: 24px 32px;
+	border-left: 3px solid var(--secondary-color);
+	background: #2887ad12;
+	border-radius: 0 10px 10px 0;
+}
+
+.projects-intro__subtitle {
+	font-size: 1rem;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--text-secondary-color);
+	margin: 0 0 10px;
+}
+
+.projects-intro__description {
+	margin: 0;
+	font-size: 0.95rem;
+	line-height: 1.75;
+	color: var(--text-color);
+	opacity: 0.85;
+	text-align: justify;
+}
+
+@media (max-width: 768px) {
+	.projects-intro {
+		padding: 18px 20px;
+	}
+}

@@ -3,7 +3,9 @@
 		"aboutMe": "Su di me",
 		"aboutMeText": "Sono una sviluppatrice front-end orientata alla qualità, con attenzione ai dettagli e alla ricerca di soluzioni efficaci. Ho iniziato il mio percorso combinando studio e pratica su progetti reali, realizzando diversi pet projects per consolidare le mie competenze. Per più di un anno e mezzo ho collaborato allo sviluppo del progetto Archivio Digitale per un'agenzia dell'alta moda, lavorando sul front-end, sulla UI e sull'integrazione con API. Utilizzo quotidianamente tecnologie come React, TypeScript, Next.js, Tailwind, Figma, Git, React Query, Zustand e React Hook Form.",
 		"githubActivity": "La mia attività su Github",
-		"projects": "PROGETTI"
+		"projects": "PROGETTI",
+		"projectsSubtitle": "Progetti Personali AI Free",
+		"projectsDescription": "Questi progetti sono stati realizzati senza l'utilizzo dell'AI, per mettere in pratica e consolidare le competenze acquisite durante il mio percorso di apprendimento. Ogni riga di codice è stata scritta interamente da me, e anche il design visivo è stato ideato e realizzato in autonomia. Ogni progetto aveva un obiettivo specifico: un insieme di skill o concetti che volevo esplorare e applicare concretamente."
 	},
 	"projectDescriptions": {
 		"1": "Sito web per lo streaming di film. Il progetto è stato realizzato con HTML, CSS e JavaScript.",

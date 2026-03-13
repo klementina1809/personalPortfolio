@@ -17,6 +17,16 @@ function Projects() {
 					{t("header.projects")}
 				</h2>
 			</Row>
+			<Row>
+				<div className="projects-intro">
+					<h3 className="projects-intro__subtitle">
+						{t("header.projectsSubtitle")}
+					</h3>
+					<p className="projects-intro__description">
+						{t("header.projectsDescription")}
+					</p>
+				</div>
+			</Row>
 			<Row className="projects-container">
 				{projects
 					.sort((a, b) => b.id - a.id)

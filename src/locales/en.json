@@ -3,7 +3,9 @@
 		"aboutMe": "About Me",
 		"aboutMeText": "I am a front-end developer focused on quality, with strong attention to detail and a constant drive to find effective solutions. I started my journey by combining theoretical learning with hands-on experience, building various pet projects to strengthen my skills. For over a year and a half, I collaborated on the development of the Archivio Digitale project for a high-fashion agency, working on the front-end, UI design, and API integration. I work daily with technologies such as React, TypeScript, Next.js, Tailwind, Figma, Git, React Query, Zustand, and React Hook Form.",
 		"githubActivity": "My Github Activity",
-		"projects": "PROJECTS"
+		"projects": "PROJECTS",
+		"projectsSubtitle": "AI Free Pet Projects",
+		"projectsDescription": "These projects were created without the use of AI, as a way to practice and reinforce the skills I was acquiring during my learning journey. Every line of code was written entirely by me, and the visual design of each project was also crafted independently. Each project had a specific focus — a set of skills or concepts I wanted to explore and apply in practice."
 	},
 	"projectDescriptions": {
 		"1": "Website for movie streaming. The project was created using HTML, CSS, and JavaScript.",
