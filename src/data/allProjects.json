@@ -198,10 +198,22 @@
 			"linkWeb": "",
 			"linkGit": null,
 			"date": "Nov 2024",
-			"aiFree": false
+			"aiFree": false,
+			"hidden": true
 		},
 		{
 			"id": 21,
+			"title": "Moodboard",
+			"description": "",
+			"img": null,
+			"video": "./photo/moodboard.mp4",
+			"linkWeb": "https://youtu.be/FLAyobQeBa8",
+			"linkGit": null,
+			"date": "Sept 2025",
+			"aiFree": false
+		},
+		{
+			"id": 22,
 			"title": "Studio Sobrero",
 			"description": "",
 			"img": "./photo/Sobrero.png",

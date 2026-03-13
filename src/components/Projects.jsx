@@ -10,15 +10,14 @@ function Projects() {
 	const [projects] = useState(data.projects);
 
 	const recentProjects = projects
-		.filter((p) => !p.aiFree)
+		.filter((p) => !p.aiFree && !p.hidden)
 		.sort((a, b) => b.id - a.id);
 	const aiProjects = projects
-		.filter((p) => p.aiFree)
+		.filter((p) => p.aiFree && !p.hidden)
 		.sort((a, b) => b.id - a.id);
 
 	return (
 		<>
-			<hr />
 			<Row>
 				<h2 className="center" style={{ fontWeight: 700 }}>
 					{t("header.projects")}

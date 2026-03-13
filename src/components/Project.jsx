@@ -5,9 +5,36 @@ function Project({ data }) {
 
 	return (
 		<div className="project">
-			<a href={data.linkWeb} target="_blank" rel="noreferrer">
-				<img src={data.img} alt="" />
-			</a>
+			{data.video ? (
+				<a
+					href={data.linkWeb}
+					target="_blank"
+					rel="noreferrer"
+					style={{
+						display: "block",
+						overflow: "hidden",
+						borderRadius: "8px",
+						boxShadow: "5px 3px 9px 0px #00000030",
+					}}
+				>
+					<video
+						src={data.video}
+						autoPlay
+						muted
+						playsInline
+						loop
+						style={{
+							width: "100%",
+							display: "block",
+							transform: "scale(1.18)",
+						}}
+					/>
+				</a>
+			) : (
+				<a href={data.linkWeb} target="_blank" rel="noreferrer">
+					<img src={data.img} alt="" />
+				</a>
+			)}
 			<div className="info-container">
 				<span className="date">{data.date}</span>
 				<div className="description-container">
