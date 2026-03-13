@@ -7,7 +7,8 @@
 			"img": "./photo/kinomonster.jpg",
 			"linkWeb": "https://klementina1809.github.io/movies-website/",
 			"linkGit": "https://github.com/klementina1809/movies-website",
-			"date": "02.08.23"
+			"date": "02.08.23",
+			"aiFree": true
 		},
 		{
 			"id": 2,
@@ -16,7 +17,8 @@
 			"img": "./photo/gestionale-web.jpg",
 			"linkWeb": "https://klementina1809.github.io/gestionale-web/",
 			"linkGit": "https://github.com/klementina1809/gestionale-web",
-			"date": "09.09.23"
+			"date": "09.09.23",
+			"aiFree": true
 		},
 		{
 			"id": 3,
@@ -25,7 +27,8 @@
 			"img": "./photo/calcolatrice.jpg",
 			"linkWeb": "https://klementina1809.github.io/calcolatrice/",
 			"linkGit": "https://github.com/klementina1809/calcolatrice",
-			"date": "03.01.24"
+			"date": "03.01.24",
+			"aiFree": true
 		},
 		{
 			"id": 4,
@@ -34,7 +37,8 @@
 			"img": "./photo/To Do List.jpg",
 			"linkWeb": "https://klementina1809.github.io/project/",
 			"linkGit": "https://github.com/klementina1809/project",
-			"date": "15.01.24"
+			"date": "15.01.24",
+			"aiFree": true
 		},
 		{
 			"id": 5,
@@ -43,7 +47,8 @@
 			"img": "./photo/Weather.jpg",
 			"linkWeb": "https://klementina1809.github.io/weatherStation/",
 			"linkGit": "https://github.com/klementina1809/weatherStation",
-			"date": "06.03.24"
+			"date": "06.03.24",
+			"aiFree": true
 		},
 		{
 			"id": 6,
@@ -52,7 +57,8 @@
 			"img": "./photo/pass-generator.jpg",
 			"linkWeb": "https://klementina1809.github.io/pass-generator/",
 			"linkGit": "https://github.com/klementina1809/pass-generator",
-			"date": "14.03.24"
+			"date": "14.03.24",
+			"aiFree": true
 		},
 		{
 			"id": 7,
@@ -61,7 +67,8 @@
 			"img": "./photo/square.jpg",
 			"linkWeb": "https://klementina1809.github.io/square/",
 			"linkGit": "https://github.com/klementina1809/square",
-			"date": "15.03.24"
+			"date": "15.03.24",
+			"aiFree": true
 		},
 		{
 			"id": 8,
@@ -70,7 +77,8 @@
 			"img": "./photo/calendar.jpg",
 			"linkWeb": "https://klementina1809.github.io/Calendar/",
 			"linkGit": "https://github.com/klementina1809/Calendar",
-			"date": "18.03.24"
+			"date": "18.03.24",
+			"aiFree": true
 		},
 		{
 			"id": 9,
@@ -79,7 +87,8 @@
 			"img": "./photo/slot.jpg",
 			"linkWeb": "https://klementina1809.github.io/slotMachine/",
 			"linkGit": "https://github.com/klementina1809/slotMachine",
-			"date": "29.03.24"
+			"date": "29.03.24",
+			"aiFree": true
 		},
 		{
 			"id": 10,
@@ -88,7 +97,8 @@
 			"img": "./photo/vidly.jpg",
 			"linkWeb": "https://klementina1809.github.io/mosh/",
 			"linkGit": "https://github.com/klementina1809/mosh",
-			"date": "31.03.24"
+			"date": "31.03.24",
+			"aiFree": true
 		},
 		{
 			"id": 11,
@@ -97,7 +107,8 @@
 			"img": "./photo/password-game.jpg",
 			"linkWeb": "https://klementina1809.github.io/passwordGame/",
 			"linkGit": "https://github.com/klementina1809/passwordGame",
-			"date": "12.04.24"
+			"date": "12.04.24",
+			"aiFree": true
 		},
 		{
 			"id": 12,
@@ -106,7 +117,8 @@
 			"img": "./photo/counter.jpg",
 			"linkWeb": "https://klementina1809.github.io/counter/",
 			"linkGit": "https://github.com/klementina1809/counter",
-			"date": "14.04.24"
+			"date": "14.04.24",
+			"aiFree": true
 		},
 		{
 			"id": 13,
@@ -115,7 +127,8 @@
 			"img": "./photo/black-jack.jpg",
 			"linkWeb": "https://klementina1809.github.io/black-jack/",
 			"linkGit": "https://github.com/klementina1809/black-jack",
-			"date": "18.04.24"
+			"date": "18.04.24",
+			"aiFree": true
 		},
 		{
 			"id": 14,
@@ -124,7 +137,8 @@
 			"img": "./photo/portfolio.jpg",
 			"linkWeb": "https://klementina1809.github.io/personalPortfolio/",
 			"linkGit": "https://github.com/klementina1809/personalPortfolio",
-			"date": "03.05.24"
+			"date": "03.05.24",
+			"aiFree": true
 		},
 		{
 			"id": 15,
@@ -133,7 +147,8 @@
 			"img": "./photo/currency-converter.jpg",
 			"linkWeb": "https://klementina1809.github.io/currencyConverter/",
 			"linkGit": "https://github.com/klementina1809/currencyConverter",
-			"date": "13.05.24"
+			"date": "13.05.24",
+			"aiFree": true
 		},
 		{
 			"id": 16,
@@ -142,7 +157,8 @@
 			"img": "./photo/text-editor.jpg",
 			"linkWeb": "https://klementina1809.github.io/email-editor/",
 			"linkGit": "https://github.com/klementina1809/email-editor",
-			"date": "24.05.24"
+			"date": "24.05.24",
+			"aiFree": true
 		},
 		{
 			"id": 17,
@@ -151,7 +167,8 @@
 			"img": "./photo/cat.jpg",
 			"linkWeb": "https://klementina1809.github.io/cat-generator/",
 			"linkGit": "https://github.com/klementina1809/cat-generator",
-			"date": "17.06.24"
+			"date": "17.06.24",
+			"aiFree": true
 		},
 		{
 			"id": 18,
@@ -160,7 +177,8 @@
 			"img": "./photo/memory.jpg",
 			"linkWeb": "https://klementina1809.github.io/memory/",
 			"linkGit": "https://github.com/klementina1809/memory",
-			"date": "04.07.24"
+			"date": "04.07.24",
+			"aiFree": true
 		},
 		{
 			"id": 19,
@@ -169,7 +187,8 @@
 			"img": "./photo/WhatsStats1.jpg",
 			"linkWeb": "https://whatsstats.netlify.app/",
 			"linkGit": null,
-			"date": "01.10.24"
+			"date": "Oct 2024",
+			"aiFree": false
 		},
 		{
 			"id": 20,
@@ -178,7 +197,18 @@
 			"img": "./photo/backoffice.jpg",
 			"linkWeb": "",
 			"linkGit": null,
-			"date": "07.11.24"
+			"date": "Nov 2024",
+			"aiFree": false
+		},
+		{
+			"id": 21,
+			"title": "Studio Sobrero",
+			"description": "",
+			"img": "./photo/Sobrero.png",
+			"linkWeb": "https://www.studiosobrero.it/",
+			"linkGit": null,
+			"date": "Feb 2026",
+			"aiFree": false
 		}
 	]
 }

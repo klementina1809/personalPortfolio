@@ -7,7 +7,14 @@ import Project from "./Project";
 
 function Projects() {
 	const { t } = useTranslation();
-	const [projects, setProjects] = useState(data.projects);
+	const [projects] = useState(data.projects);
+
+	const recentProjects = projects
+		.filter((p) => !p.aiFree)
+		.sort((a, b) => b.id - a.id);
+	const aiProjects = projects
+		.filter((p) => p.aiFree)
+		.sort((a, b) => b.id - a.id);
 
 	return (
 		<>
@@ -16,6 +23,13 @@ function Projects() {
 				<h2 className="center" style={{ fontWeight: 700 }}>
 					{t("header.projects")}
 				</h2>
+			</Row>
+			<Row className="projects-container">
+				{recentProjects.map((project) => (
+					<Col sm={12} md={6} xl={4} key={project.id}>
+						<Project data={project} />
+					</Col>
+				))}
 			</Row>
 			<Row>
 				<div className="projects-intro">
@@ -28,15 +42,11 @@ function Projects() {
 				</div>
 			</Row>
 			<Row className="projects-container">
-				{projects
-					.sort((a, b) => b.id - a.id)
-					.map((project) => {
-						return (
-							<Col sm={12} md={6} xl={4} key={project.id}>
-								<Project data={project} />
-							</Col>
-						);
-					})}
+				{aiProjects.map((project) => (
+					<Col sm={12} md={6} xl={4} key={project.id}>
+						<Project data={project} />
+					</Col>
+				))}
 			</Row>
 		</>
 	);

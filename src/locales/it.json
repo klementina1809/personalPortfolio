@@ -27,6 +27,7 @@
 		"17": "Un'app che mostra immagini e fatti casuali di gatti, permettendo di esportare il contenuto in PDF, ottenendo dati tramite richieste API al server.",
 		"18": "Gioco Memory con carte ispirate a 'Inside Out 2'. Scopo: trovare tutte le coppie di personaggi con il minor numero di mosse.",
 		"19": "Un progetto che analizza le chat di WhatsApp, mostrando grafici e statistiche sui messaggi e l'attività degli utenti.",
-		"20": "Backoffice multipagina per la gestione dei dati degli utenti di un'app mobile, con autenticazione sicura e tabelle interattive per operazioni CRUD."
+		"20": "Backoffice multipagina per la gestione dei dati degli utenti di un'app mobile, con autenticazione sicura e tabelle interattive per operazioni CRUD.",
+		"21": "Sito web per uno studio dentistico, realizzato con WordPress tramite il page builder Elementor."
 	}
 }

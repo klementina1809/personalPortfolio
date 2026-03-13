@@ -27,6 +27,7 @@
 		"17": "An app that displays random cat images and facts, allowing users to export content to a PDF, fetching data via API requests.",
 		"18": "Memory game with cards inspired by 'Inside Out 2'. Goal: match all character pairs with the fewest moves.",
 		"19": "A project analyzing WhatsApp chats, displaying graphs and statistics on user messages and activity.",
-		"20": "Multi-page backoffice for managing mobile app user data, with secure authentication and interactive tables for CRUD operations."
+		"20": "Multi-page backoffice for managing mobile app user data, with secure authentication and interactive tables for CRUD operations.",
+		"21": "Website for a dental studio, developed using WordPress with the Elementor page builder."
 	}
 }
