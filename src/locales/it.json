@@ -7,6 +7,12 @@
 		"projectsSubtitle": "Progetti Personali AI Free",
 		"projectsDescription": "Questi progetti sono stati realizzati senza l'utilizzo dell'AI, per mettere in pratica e consolidare le competenze acquisite durante il mio percorso di apprendimento. Ogni riga di codice è stata scritta interamente da me, e anche il design visivo è stato ideato e realizzato in autonomia. Ogni progetto aveva un obiettivo specifico: un insieme di skill o concetti che volevo esplorare e applicare concretamente."
 	},
+	"projectDetails": {
+		"19": "WhatsStats è un'applicazione web che analizza i file di chat esportati da WhatsApp e li trasforma in statistiche visive. Mostra dati come il numero di messaggi per utente, l'attività nel tempo, le parole più usate e la frequenza delle emoji. Il progetto include la progettazione e lo sviluppo completo dell'interfaccia con layout responsive, l'integrazione dei dati tramite REST API e la visualizzazione attraverso grafici avanzati e interattivi.",
+		"20": "Un backoffice multipagina sviluppato per un team interno, per gestire gli utenti di un'applicazione mobile. Include autenticazione sicura tramite JWT, tabelle con paginazione e ordinamento, e operazioni CRUD complete. L'interfaccia è stata progettata per essere pulita ed efficiente nell'uso quotidiano.",
+		"21": "Moodboard è una canvas interattiva per la creazione di collage visivi. Permette di aggiungere prodotti, immagini e video dalla libreria, arricchirli con testi, note, forme geometriche, schizzi a mano libera e palette colori, organizzando tutto liberamente sulla lavagna. Supporta la collaborazione in tempo reale tramite un sistema di condivisione con permessi di visualizzazione o modifica, la gestione dei contenuti in arrivo tramite inbox, e l'esportazione del risultato finale in PDF o come archivio di immagini.",
+		"22": "Landing page per uno studio dentistico composta da una hero-section, sezione сhi siamo, elenco dei servizi di odontoiatria e medicina estetica, presentazione del team medico, recensioni dei pazienti e sezione contatti. Include un modulo di prenotazione appuntamenti direttamente via WhatsApp, una mappa interattiva con l'indirizzo dello studio e piena adattabilità su dispositivi mobili."
+	},
 	"projectDescriptions": {
 		"1": "Sito web per lo streaming di film. Il progetto è stato realizzato con HTML, CSS e JavaScript.",
 		"2": "Demo di un gestionale web per la gestione di clienti. Il progetto è stato realizzato con HTML e CSS.",

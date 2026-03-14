@@ -7,6 +7,12 @@
 		"projectsSubtitle": "AI Free Pet Projects",
 		"projectsDescription": "These projects were created without the use of AI, as a way to practice and reinforce the skills I was acquiring during my learning journey. Every line of code was written entirely by me, and the visual design of each project was also crafted independently. Each project had a specific focus — a set of skills or concepts I wanted to explore and apply in practice."
 	},
+	"projectDetails": {
+		"19": "WhatsStats is a web application that parses exported WhatsApp chat files and turns them into visual insights. It displays statistics such as message count per user, activity over time, most used words, and emoji frequency. The project covers the full design and development of the interface with a responsive layout, data integration via REST API, and visualization through advanced interactive charts.",
+		"20": "A multi-page backoffice built for an internal team to manage users of a mobile application. Features include secure JWT-based authentication, paginated and sortable data tables, and full CRUD operations. The interface was designed to be clean and efficient for daily administrative use.",
+		"21": "Moodboard is an interactive canvas for creating visual collages. It allows adding products, images, and videos from a library, enriching them with text, notes, geometric shapes, freehand sketches, and color palettes — all arranged freely on the board. It supports real-time collaboration through a sharing system with view or edit permissions, an inbox for managing incoming content, and export to PDF or as an image archive.",
+		"22": "Landing page for a dental and aesthetic medicine clinic featuring a hero section, services overview, doctors team, reviews, and contact information. Includes a WhatsApp appointment request form, embedded clinic location map, and full mobile responsiveness."
+	},
 	"projectDescriptions": {
 		"1": "Website for movie streaming. The project was created using HTML, CSS, and JavaScript.",
 		"2": "Demo of a web management system for handling clients. The project was created using HTML and CSS.",

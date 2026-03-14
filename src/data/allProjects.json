@@ -188,7 +188,16 @@
 			"linkWeb": "https://whatsstats.netlify.app/",
 			"linkGit": null,
 			"date": "Oct 2024",
-			"aiFree": false
+			"aiFree": false,
+			"techStack": [
+				"React",
+				"Metronic",
+				"Tailwind CSS",
+				"Axios",
+				"React Query",
+				"ApexCharts.js",
+				"REST API"
+			]
 		},
 		{
 			"id": 20,
@@ -199,7 +208,14 @@
 			"linkGit": null,
 			"date": "Nov 2024",
 			"aiFree": false,
-			"hidden": true
+			"hidden": true,
+			"techStack": [
+				"React",
+				"TypeScript",
+				"Tailwind CSS",
+				"React Query",
+				"React Hook Form"
+			]
 		},
 		{
 			"id": 21,
@@ -210,7 +226,18 @@
 			"linkWeb": "https://youtu.be/FLAyobQeBa8",
 			"linkGit": null,
 			"date": "Sept 2025",
-			"aiFree": false
+			"aiFree": false,
+			"techStack": [
+				"React",
+				"TypeScript",
+				"JavaScript",
+				"Fabric.js",
+				"Tailwind CSS",
+				"REST API",
+				"React Query",
+				"Axios",
+				"React Hot Toast"
+			]
 		},
 		{
 			"id": 22,
@@ -220,7 +247,8 @@
 			"linkWeb": "https://www.studiosobrero.it/",
 			"linkGit": null,
 			"date": "Feb 2026",
-			"aiFree": false
+			"aiFree": false,
+			"techStack": ["WordPress", "Elementor", "Contact Form 7", "CSS"]
 		}
 	]
 }

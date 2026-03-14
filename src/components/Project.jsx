@@ -1,34 +1,16 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import ProjectModal from "./ProjectModal";
 
 function Project({ data }) {
 	const { t } = useTranslation();
+	const [modalOpen, setModalOpen] = useState(false);
 
 	return (
 		<div className="project">
 			{data.video ? (
-				<a
-					href={data.linkWeb}
-					target="_blank"
-					rel="noreferrer"
-					style={{
-						display: "block",
-						overflow: "hidden",
-						borderRadius: "8px",
-						boxShadow: "5px 3px 9px 0px #00000030",
-					}}
-				>
-					<video
-						src={data.video}
-						autoPlay
-						muted
-						playsInline
-						loop
-						style={{
-							width: "100%",
-							display: "block",
-							transform: "scale(1.18)",
-						}}
-					/>
+				<a href={data.linkWeb} target="_blank" rel="noreferrer" className="video-wrapper">
+					<video src={data.video} autoPlay muted playsInline loop />
 				</a>
 			) : (
 				<a href={data.linkWeb} target="_blank" rel="noreferrer">
@@ -48,6 +30,11 @@ function Project({ data }) {
 					) : (
 						<span className="disabled-button">Demo</span>
 					)}
+					{!data.aiFree && (
+						<button className="demo-button" onClick={() => setModalOpen(true)}>
+							Read more
+						</button>
+					)}
 					{data.linkGit !== null && (
 						<a href={data.linkGit} target="_blank" rel="noreferrer">
 							GitHub
@@ -55,6 +42,8 @@ function Project({ data }) {
 					)}
 				</div>
 			</div>
+
+			{modalOpen && <ProjectModal data={data} onClose={() => setModalOpen(false)} />}
 		</div>
 	);
 }
