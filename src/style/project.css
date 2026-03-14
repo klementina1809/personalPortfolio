@@ -92,6 +92,33 @@
 	opacity: 0.6;
 }
 
+.project .coming-soon-wrapper {
+	position: relative;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 5px 3px 9px 0px #00000030;
+}
+
+.project .coming-soon-overlay {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.45);
+	border-radius: 8px;
+}
+
+.project .coming-soon-overlay span {
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+
+
 /* project modal */
 
 .project-modal-overlay {
