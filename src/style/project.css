@@ -1,8 +1,8 @@
 .project {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 40px;
-	padding: 40px;
+	margin-bottom: 30px;
+	padding: 28px;
 	gap: 10px;
 	border-radius: 12px;
 	box-shadow: 0px 0px 8px 0px #2887ad59;
@@ -36,18 +36,18 @@
 
 .project .description-container {
 	display: flex;
-	height: 150px;
+	height: 85px;
 }
 
 .project p.description {
 	margin: 0;
-	font-size: 1rem;
+	font-size: 0.88rem;
 	text-align: start;
 	text-align: justify;
 }
 .project span.date {
 	color: #68696cca;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-weight: 600;
 	font-style: italic;
 	text-align: start;
@@ -63,10 +63,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-block: 8px;
+	padding-block: 6px;
 	border-radius: 8px;
 	box-shadow: 0px 0px 5px 0px #2887ad59;
 	font-weight: 500;
+	font-size: 0.88rem;
 }
 
 .project .button-container > a:hover,
@@ -80,7 +81,7 @@
 	border: none;
 	cursor: pointer;
 	color: inherit;
-	font-size: inherit;
+	font-size: 0.88rem;
 	font-family: inherit;
 }
 
@@ -111,7 +112,7 @@
 
 .project .coming-soon-overlay span {
 	color: #fff;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	font-weight: 700;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -207,7 +208,7 @@
 
 @media (max-width: 1600px) {
 	.project .description-container {
-		height: 180px;
+		height: 110px;
 	}
 }
 

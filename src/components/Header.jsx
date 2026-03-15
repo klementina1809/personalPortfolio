@@ -41,7 +41,7 @@ function Header() {
 				</Row>
 
 				<Row className="justified-center">
-					<Col lg={12} xl={8}>
+					<Col lg={11} xl={7}>
 						<div className="profile-github">
 							<span className="label">{t("header.githubActivity")}</span>
 							<a
