@@ -36,7 +36,11 @@ function Project({ data }) {
 					{data.comingSoon ? (
 						<>
 							<span className="disabled-button">Demo</span>
-							<span className="disabled-button">Read more</span>
+							{!data.aiFree && (
+								<button className="demo-button" onClick={() => setModalOpen(true)}>
+									Read more
+								</button>
+							)}
 						</>
 					) : (
 						<>

@@ -252,14 +252,15 @@
 		},
 		{
 			"id": 23,
-			"title": "Chora",
+			"title": "Shiny",
 			"description": "A home cleaning management app designed to organize household tasks, track progress, and simplify everyday chores through a clear and structured task system.",
-			"img": "./photo/chora.png",
+			"img": "./photo/shiny.png",
 			"linkWeb": "",
 			"linkGit": null,
 			"date": "2026",
 			"aiFree": false,
-			"comingSoon": true
+			"comingSoon": true,
+			"techStack": ["Next.js", "TypeScript", "Tailwind CSS", "Zustand", "Motion"]
 		},
 		{
 			"id": 24,
