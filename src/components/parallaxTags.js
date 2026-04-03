@@ -18,6 +18,7 @@ const TAGS_FRONTEND = [
 
 const TAGS_REACT = [
 	{ label: "React", depth: 1.1, forceLeft: 2, forceTop: 55 },
+	{ label: "React Native", depth: 0.95 },
 	{ label: "Next.js", depth: 0.9 },
 	{ label: "React Router DOM", depth: 1.4, forceLeft: 1, forceTop: 32 },
 	{ label: "Zustand", depth: 0.7 },
