@@ -11,7 +11,8 @@
 		"19": "WhatsStats is a web application that parses exported WhatsApp chat files and turns them into visual insights. It displays statistics such as message count per user, activity over time, most used words, and emoji frequency. The project covers the full design and development of the interface with a responsive layout, data integration via REST API, and visualization through advanced interactive charts.",
 		"20": "A multi-page backoffice built for an internal team to manage users of a mobile application. Features include secure JWT-based authentication, paginated and sortable data tables, and full CRUD operations. The interface was designed to be clean and efficient for daily administrative use.",
 		"21": "Moodboard is an interactive canvas for creating visual collages. It allows adding products, images, and videos from a library, enriching them with text, notes, geometric shapes, freehand sketches, and color palettes — all arranged freely on the board. It supports real-time collaboration through a sharing system with view or edit permissions, an inbox for managing incoming content, and export to PDF or as an image archive.",
-		"22": "Landing page for a dental and aesthetic medicine clinic featuring a hero section, services overview, doctors team, reviews, and contact information. Includes a WhatsApp appointment request form, embedded clinic location map, and full mobile responsiveness."
+		"22": "Landing page for a dental and aesthetic medicine clinic featuring a hero section, services overview, doctors team, reviews, and contact information. Includes a WhatsApp appointment request form, embedded clinic location map, and full mobile responsiveness.",
+		"24": "PolyEdge Dashboard is a real-time analytics interface for an automated Polymarket trading bot operating across crypto prediction markets (BTC, ETH, SOL, XRP). The main page tracks live bot performance — realized P&L, win rate, profit factor, max drawdown, and per-strategy breakdowns. The Markets page features an interactive market browser with TradingView price charts, asset/interval filters, and trade entry/exit overlays. The Analysis page offers a statistical suite with calibration heatmaps, streak detection, edge scanning, and time-of-day patterns."
 	},
 	"projectDescriptions": {
 		"1": "Website for movie streaming. The project was created using HTML, CSS, and JavaScript.",
@@ -36,6 +37,7 @@
 		"20": "Multi-page backoffice for managing mobile app user data, with secure authentication and interactive tables for CRUD operations.",
 		"21": "A digital canvas for freely placing, moving, and editing various elements. All changes are saved to the backend.",
 		"22": "Website for a dental studio, developed using WordPress with the Elementor page builder.",
-		"23": "A home cleaning app to organize tasks, track progress, and simplify everyday chores."
+		"23": "A home cleaning app to organize tasks, track progress, and simplify everyday chores.",
+		"24": "Real-time monitoring dashboard for an automated trading bot on Polymarket prediction markets."
 	}
 }

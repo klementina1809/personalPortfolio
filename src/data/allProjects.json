@@ -260,6 +260,17 @@
 			"date": "2026",
 			"aiFree": false,
 			"comingSoon": true
+		},
+		{
+			"id": 24,
+			"title": "PolyEdge Dashboard",
+			"description": "",
+			"img": "./photo/PolyEdge.png",
+			"linkWeb": "",
+			"linkGit": null,
+			"date": "Mar 2026",
+			"aiFree": false,
+			"techStack": ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "TradingView Lightweight Charts", "Recharts"]
 		}
 	]
 }

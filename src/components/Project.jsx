@@ -18,10 +18,14 @@ function Project({ data }) {
 				<a href={data.linkWeb} target="_blank" rel="noreferrer" className="video-wrapper">
 					<video src={data.video} autoPlay muted playsInline loop />
 				</a>
-			) : (
+			) : data.img ? (
 				<a href={data.linkWeb} target="_blank" rel="noreferrer">
 					<img src={data.img} alt="" />
 				</a>
+			) : (
+				<div className="img-placeholder">
+					<span>{data.title}</span>
+				</div>
 			)}
 			<div className="info-container">
 				<span className="date">{data.date}</span>

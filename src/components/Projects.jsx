@@ -11,7 +11,10 @@ function Projects() {
 
 	const recentProjects = projects
 		.filter((p) => !p.aiFree && !p.hidden)
-		.sort((a, b) => b.id - a.id);
+		.sort((a, b) => {
+			if (a.comingSoon !== b.comingSoon) return a.comingSoon ? -1 : 1;
+			return b.id - a.id;
+		});
 	const aiProjects = projects
 		.filter((p) => p.aiFree && !p.hidden)
 		.sort((a, b) => b.id - a.id);
