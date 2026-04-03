@@ -47,11 +47,13 @@
 	display: flex;
 	flex-direction: column;
 	margin-top: 10px;
+	gap: 10px;
 }
 
 .project .description-container {
 	display: flex;
-	height: 85px;
+	height: 90px;
+	overflow: hidden;
 }
 
 .project p.description {
@@ -239,15 +241,21 @@
 
 /* media adaptive */
 
-@media (max-width: 1600px) {
+@media (min-width: 2560px) {
 	.project .description-container {
 		height: 110px;
+	}
+}
+
+@media (max-width: 1600px) {
+	.project .description-container {
+		height: 115px;
 	}
 }
 
 @media (max-width: 768px) {
 	.project .description-container {
 		height: auto;
-		margin-bottom: 20px;
+		overflow: visible;
 	}
 }
