@@ -267,7 +267,7 @@
 			"title": "PolyEdge Dashboard",
 			"description": "",
 			"img": "./photo/PolyEdge.png",
-			"linkWeb": "",
+			"linkWeb": "https://polyedge.igol.dev",
 			"linkGit": null,
 			"date": "Mar 2026",
 			"aiFree": false,
