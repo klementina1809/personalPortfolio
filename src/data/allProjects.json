@@ -272,6 +272,25 @@
 			"date": "Mar 2026",
 			"aiFree": false,
 			"techStack": ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "TradingView Lightweight Charts", "Recharts"]
+		},
+		{
+			"id": 25,
+			"title": "Shiny Landing",
+			"description": "",
+			"img": "./photo/shiny-landing.png",
+			"linkWeb": "https://goshiny.app/",
+			"linkGit": null,
+			"date": "May 2026",
+			"aiFree": false,
+			"techStack": [
+				"Next.js",
+				"TypeScript",
+				"Tailwind CSS",
+				"next-intl",
+				"motion/react",
+				"Vitest",
+				"pnpm + Turborepo"
+			]
 		}
 	]
 }

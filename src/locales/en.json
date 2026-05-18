@@ -13,7 +13,8 @@
 		"21": "Moodboard is an interactive canvas for creating visual collages. It allows adding products, images, and videos from a library, enriching them with text, notes, geometric shapes, freehand sketches, and color palettes — all arranged freely on the board. It supports real-time collaboration through a sharing system with view or edit permissions, an inbox for managing incoming content, and export to PDF or as an image archive.",
 		"22": "Landing page for a dental and aesthetic medicine clinic featuring a hero section, services overview, doctors team, reviews, and contact information. Includes a WhatsApp appointment request form, embedded clinic location map, and full mobile responsiveness.",
 		"23": "A household chore management app that helps families organize, schedule, and track tasks across rooms and members. It features a dashboard with task prioritization, overdue alerts, and room cleanliness analytics. Users can create custom chores or use templates, set up one-time or recurring schedules, and assign tasks. Includes a calendar view, per-room statistics, activity history, multi-household support with invite codes, and multi-language localization.",
-		"24": "A real-time analytics interface for an automated Polymarket trading bot operating across crypto prediction markets (BTC, ETH, SOL, XRP). The main page tracks live bot performance — realized P&L, win rate, profit factor, max drawdown, and per-strategy breakdowns. The Markets page features an interactive market browser with TradingView price charts, asset/interval filters, and trade entry/exit overlays. The Analysis page offers a statistical suite with calibration heatmaps, streak detection, edge scanning, and time-of-day patterns."
+		"24": "A real-time analytics interface for an automated Polymarket trading bot operating across crypto prediction markets (BTC, ETH, SOL, XRP). The main page tracks live bot performance — realized P&L, win rate, profit factor, max drawdown, and per-strategy breakdowns. The Markets page features an interactive market browser with TradingView price charts, asset/interval filters, and trade entry/exit overlays. The Analysis page offers a statistical suite with calibration heatmaps, streak detection, edge scanning, and time-of-day patterns.",
+		"25": "Marketing landing page for the Shiny app, built as a dedicated public route inside the web application. It uses next-intl for EN/IT localization, motion/react for animations and transitions, and pnpm with Turborepo to manage the monorepo structure, while Vitest covers key UI sections with component and snapshot tests. The page includes a hero section, mobile mockups, task-flow and home-setup blocks, shared-home and notification previews, plus legal pages, all kept visually aligned with the real product experience."
 	},
 	"projectDescriptions": {
 		"1": "Website for movie streaming. The project was created using HTML, CSS, and JavaScript.",
@@ -39,6 +40,7 @@
 		"21": "A digital canvas for freely placing, moving, and editing various elements. All changes are saved to the backend.",
 		"22": "Website for a dental studio, developed using WordPress with the Elementor page builder.",
 		"23": "A home cleaning app to organize tasks, track progress, and simplify everyday chores.",
-		"24": "Real-time monitoring dashboard for an automated trading bot on Polymarket prediction markets."
+		"24": "Real-time monitoring dashboard for an automated trading bot on Polymarket prediction markets.",
+		"25": "Product-driven landing page for the Shiny app with animated mobile previews, localized content, and real app-based task flow sections."
 	}
 }
